@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useCallback, useState } from "react";
 import { ArrowLeft, ArrowRight, Clock, Users, Film, DollarSign, BookMarked, Wrench } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -49,7 +50,6 @@ interface CategoryDetailProps {
   category: PackCategory;
   packs: AnyPack[];
   subCategories?: PackSubCategory[];
-  initialSubId?: string;
 }
 
 const sectionClass = "glass rounded-2xl p-6 md:p-8 mb-6 border-slate-400/10";
@@ -58,13 +58,14 @@ export function CategoryDetail({
   category,
   packs,
   subCategories = [],
-  initialSubId,
 }: CategoryDetailProps) {
+  const searchParams = useSearchParams();
   const Icon = getIcon(category.icon);
   const hasSubs = subCategories.length > 0;
+  const subFromUrl = searchParams.get("sub");
   const defaultSubId =
-    initialSubId && subCategories.some((s) => s.id === initialSubId)
-      ? initialSubId
+    subFromUrl && subCategories.some((s) => s.id === subFromUrl)
+      ? subFromUrl
       : (subCategories[0]?.id ?? "");
   const [activeSubId, setActiveSubId] = useState(defaultSubId);
 

@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import {
   getPackCategories,
@@ -10,7 +11,6 @@ import { CategoryDetail } from "@/components/packs/category-detail";
 
 interface CategoryPageProps {
   params: { category: string };
-  searchParams: { sub?: string };
 }
 
 export function generateStaticParams() {
@@ -26,7 +26,7 @@ export function generateMetadata({ params }: CategoryPageProps) {
   };
 }
 
-export default function CategoryPage({ params, searchParams }: CategoryPageProps) {
+export default function CategoryPage({ params }: CategoryPageProps) {
   if (!isPackCategoryId(params.category)) notFound();
 
   const category = getPackCategoryById(params.category);
@@ -34,17 +34,14 @@ export default function CategoryPage({ params, searchParams }: CategoryPageProps
 
   const packs = getPacksByCategory(params.category);
   const subCategories = getSubCategoriesByCategory(params.category);
-  const initialSubId =
-    searchParams.sub && subCategories.some((s) => s.id === searchParams.sub)
-      ? searchParams.sub
-      : undefined;
 
   return (
-    <CategoryDetail
-      category={category}
-      packs={packs}
-      subCategories={subCategories}
-      initialSubId={initialSubId}
-    />
+    <Suspense fallback={<div className="p-8 text-muted-foreground">加载中…</div>}>
+      <CategoryDetail
+        category={category}
+        packs={packs}
+        subCategories={subCategories}
+      />
+    </Suspense>
   );
 }

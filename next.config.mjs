@@ -13,6 +13,9 @@ const nextConfig = {
   // 修复 Windows 下 EISDIR readlink 错误
   webpack: (config) => {
     config.resolve.symlinks = false;
+    if (process.platform === "win32") {
+      config.cache = false;
+    }
     return config;
   },
 };

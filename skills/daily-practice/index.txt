@@ -1,0 +1,43 @@
+2:I[529,["972","static/chunks/972-6e82deda9b9fb13e.js","590","static/chunks/590-8e5e7edeac4267e1.js","831","static/chunks/831-847184133be4876f.js","518","static/chunks/518-6ef4806db7fce036.js","472","static/chunks/472-5cf8f526bb93f96c.js","348","static/chunks/app/skills/%5Bid%5D/page-d482ee5f3bfed8d1.js"],"SkillDetailChrome"]
+3:I[3635,["972","static/chunks/972-6e82deda9b9fb13e.js","590","static/chunks/590-8e5e7edeac4267e1.js","831","static/chunks/831-847184133be4876f.js","518","static/chunks/518-6ef4806db7fce036.js","472","static/chunks/472-5cf8f526bb93f96c.js","348","static/chunks/app/skills/%5Bid%5D/page-d482ee5f3bfed8d1.js"],"SkillDetailRenderer"]
+24:I[4707,[],""]
+26:I[6423,[],""]
+27:I[3568,["972","static/chunks/972-6e82deda9b9fb13e.js","590","static/chunks/590-8e5e7edeac4267e1.js","185","static/chunks/app/layout-a897ce0f7354150f.js"],"ThemeProvider"]
+28:I[8901,["972","static/chunks/972-6e82deda9b9fb13e.js","590","static/chunks/590-8e5e7edeac4267e1.js","185","static/chunks/app/layout-a897ce0f7354150f.js"],"Navbar"]
+29:I[2972,["972","static/chunks/972-6e82deda9b9fb13e.js","931","static/chunks/app/page-062b0c929cff628f.js"],""]
+5:["练习","每日任务"]
+9:{"en":"提示词练习","zh":"提示词练习"}
+a:{"en":"风格模仿","zh":"风格模仿"}
+b:{"en":"分镜设计","zh":"分镜设计"}
+c:{"en":"角色一致性","zh":"角色一致性"}
+d:{"en":"视频节奏","zh":"视频节奏"}
+e:{"en":"音效搭配","zh":"音效搭配"}
+8:["$9","$a","$b","$c","$d","$e"]
+7:{"key":"task_type","label":"任务类型","type":"select","options":"$8","default":"提示词练习"}
+11:{"en":"15 分钟","zh":"15 分钟"}
+12:{"en":"30 分钟","zh":"30 分钟"}
+13:{"en":"45 分钟","zh":"45 分钟"}
+14:{"en":"1 小时","zh":"1 小时"}
+10:["$11","$12","$13","$14"]
+f:{"key":"duration","label":"建议时长","type":"select","options":"$10","default":"30 分钟"}
+15:{"key":"task_content","label":"练习内容","type":"text","default":"用 3 种不同光线描述同一场景"}
+18:{"en":"Midjourney","zh":"Midjourney"}
+19:{"en":"Stable Diffusion","zh":"Stable Diffusion"}
+1a:{"en":"Runway","zh":"Runway"}
+1b:{"en":"Pika","zh":"Pika"}
+1c:{"en":"Suno","zh":"Suno"}
+1d:{"en":"任意工具","zh":"任意工具"}
+17:["$18","$19","$1a","$1b","$1c","$1d"]
+16:{"key":"tool","label":"使用工具","type":"select","options":"$17","default":"Midjourney"}
+1e:{"key":"criteria","label":"完成标准","type":"text","default":"产出 3 张可对比的图并记录参数差异"}
+1f:{"key":"keyword","label":"灵感关键词","type":"text","default":"雨夜霓虹"}
+6:["$7","$f","$15","$16","$1e","$1f"]
+21:["用 3 种不同光线描述同一场景","复刻一张电影海报的色调与构图","为一个 15 秒广告写 4 镜分镜","用负向提示词修复一张常见问题图","尝试同一提示词在 2 个平台出图对比","设计一个可复用的角色三视图","用 MJ --sref 锁定一种视觉风格连出 4 张","为一段视频写配套音效需求清单"]
+22:["提示词练习","风格模仿","分镜设计","角色一致性","视频节奏","音效搭配"]
+23:["15 分钟","30 分钟","45 分钟","1 小时"]
+20:{"tasks":"$21","categories":"$22","durations":"$23"}
+4:{"id":"daily-practice","name":"每日 AIGC 练习任务生成器","description":"随机生成今日练习任务，养成 AIGC 创作习惯","icon":"Target","tags":"$5","toolboxCategory":"practice","scenario":"image","type":"template-fill","guide":"点击「随机生成」获取今日练习任务，完成后可复制记录到学习笔记。","template":"📅 今日 AIGC 练习任务\n\n🎯 任务类型：{task_type}\n⏱ 建议时长：{duration}\n📝 练习内容：{task_content}\n🎨 使用工具：{tool}\n✅ 完成标准：{criteria}\n\n💡 今日灵感关键词：{keyword}","placeholders":"$6","practice":"$20"}
+25:["id","daily-practice","d"]
+0:["wTQaqR4xZfv6dZCI2V4xP",[[["",{"children":["skills",{"children":[["id","daily-practice","d"],{"children":["__PAGE__?{\"id\":\"daily-practice\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["skills",{"children":[["id","daily-practice","d"],{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{"skill":{"id":"daily-practice","name":"每日 AIGC 练习任务生成器","description":"随机生成今日练习任务，养成 AIGC 创作习惯","icon":"Target","tags":["练习","每日任务"],"toolboxCategory":"practice","scenario":"image","type":"template-fill","guide":"点击「随机生成」获取今日练习任务，完成后可复制记录到学习笔记。","template":"📅 今日 AIGC 练习任务\n\n🎯 任务类型：{task_type}\n⏱ 建议时长：{duration}\n📝 练习内容：{task_content}\n🎨 使用工具：{tool}\n✅ 完成标准：{criteria}\n\n💡 今日灵感关键词：{keyword}","placeholders":[{"key":"task_type","label":"任务类型","type":"select","options":[{"en":"提示词练习","zh":"提示词练习"},{"en":"风格模仿","zh":"风格模仿"},{"en":"分镜设计","zh":"分镜设计"},{"en":"角色一致性","zh":"角色一致性"},{"en":"视频节奏","zh":"视频节奏"},{"en":"音效搭配","zh":"音效搭配"}],"default":"提示词练习"},{"key":"duration","label":"建议时长","type":"select","options":[{"en":"15 分钟","zh":"15 分钟"},{"en":"30 分钟","zh":"30 分钟"},{"en":"45 分钟","zh":"45 分钟"},{"en":"1 小时","zh":"1 小时"}],"default":"30 分钟"},{"key":"task_content","label":"练习内容","type":"text","default":"用 3 种不同光线描述同一场景"},{"key":"tool","label":"使用工具","type":"select","options":[{"en":"Midjourney","zh":"Midjourney"},{"en":"Stable Diffusion","zh":"Stable Diffusion"},{"en":"Runway","zh":"Runway"},{"en":"Pika","zh":"Pika"},{"en":"Suno","zh":"Suno"},{"en":"任意工具","zh":"任意工具"}],"default":"Midjourney"},{"key":"criteria","label":"完成标准","type":"text","default":"产出 3 张可对比的图并记录参数差异"},{"key":"keyword","label":"灵感关键词","type":"text","default":"雨夜霓虹"}],"practice":{"tasks":["用 3 种不同光线描述同一场景","复刻一张电影海报的色调与构图","为一个 15 秒广告写 4 镜分镜","用负向提示词修复一张常见问题图","尝试同一提示词在 2 个平台出图对比","设计一个可复用的角色三视图","用 MJ --sref 锁定一种视觉风格连出 4 张","为一段视频写配套音效需求清单"],"categories":["提示词练习","风格模仿","分镜设计","角色一致性","视频节奏","音效搭配"],"durations":["15 分钟","30 分钟","45 分钟","1 小时"]}},"children":["$","$L3",null,{"skill":"$4"}]}],null],null],null]},[null,["$","$L24",null,{"parallelRouterKey":"children","segmentPath":["children","skills","children","$25","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L26",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L24",null,{"parallelRouterKey":"children","segmentPath":["children","skills","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L26",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/xiaobairumenSKILL/_next/static/css/02cd3354e206b628.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/xiaobairumenSKILL/_next/static/css/08c88414894fb69f.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/xiaobairumenSKILL/_next/static/css/37ca4cca8e598fe9.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"dark","style":{"colorScheme":"dark"},"suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_ca710c __variable_b0f4db __variable_57a24c font-sans film-grain","style":{"backgroundColor":"hsl(230, 25%, 5%)","color":"hsl(210, 20%, 98%)","margin":0},"children":["$","$L27",null,{"attribute":"class","defaultTheme":"dark","enableSystem":false,"children":[["$","$L28",null,{}],["$","main",null,{"className":"container mx-auto px-4 sm:px-6 py-10 pb-28 md:pb-12 min-h-screen max-w-6xl","children":["$","$L24",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L26",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"flex flex-col items-center justify-center py-24 text-center animate-fade-in","children":[["$","h1",null,{"className":"font-display text-6xl font-medium text-foreground/60 mb-4","children":"404"}],["$","p",null,{"className":"text-muted-foreground mb-6","children":"页面未找到，可能已被移出片场"}],["$","$L29",null,{"href":"/","className":"text-foreground hover:underline","children":"返回首页"}]]}],"notFoundStyles":[]}]}]]}]}]}]],null],null],["$L2a",null]]]]
+2a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"每日 AIGC 练习任务生成器 - AIGC 片场"}],["$","meta","3",{"name":"description","content":"随机生成今日练习任务，养成 AIGC 创作习惯"}]]
+1:null

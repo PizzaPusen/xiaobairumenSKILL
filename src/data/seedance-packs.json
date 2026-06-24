@@ -1,0 +1,4024 @@
+{
+  "packs": [
+    {
+      "id": "skill-palace-intrigue-seedance",
+      "name": "古装权谋·Seedance 分镜",
+      "description": "宫廷·夺嫡·宅斗竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Crown",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "古装权谋"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：暖黄烛光侧逆光、暗黑宫廷底色、高对比；参考《甄嬛传》《墨雨云间》；服饰发型跨集绝对一致，竖屏 9:16 字幕区预留底部 …",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "palace-intrigue",
+      "pack": {
+        "genre": "古装权谋",
+        "visualRefs": [
+          "《甄嬛传》",
+          "《墨雨云间》",
+          "《妖猫传》"
+        ],
+        "defaultVisualRef": "《甄嬛传》",
+        "defaultLighting": "暖黄烛光侧逆光、暗黑宫廷底色、高对比",
+        "defaultScene": "古装权谋典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（古装权谋）、对手、配角",
+        "exampleScript": "【宫廷·夺嫡·宅斗开场】\n冲突建立，角色对峙。\n[出场角色]：主角（古装权谋）、对手、配角",
+        "exampleOutput": "[全局锁定] 暖黄烛光侧逆光、暗黑宫廷底色、高对比；参考《甄嬛传》《墨雨云间》；服饰发型跨集绝对一致，竖屏 9:16 字幕区预留底部 15%。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：身份颠覆（废妃/庶女/替身）+ 强视觉冲击（掌掴/赐死/滴血认亲）；30 秒：第一次小反转；集尾：生死悬念或",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：身份颠覆（废妃/庶女/替身）+ 强视觉冲击（掌掴/赐死/滴血认亲）；30 秒：第一次小反",
+            "dialogue": "半文半白，金句密度高；反派先嚣张后打脸；女主台词短促有力，忌现代网络梗"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——每场对峙必须正反打合组，单人独白不超过 4 秒",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "古装权谋分镜要点",
+            "content": "每场对峙必须正反打合组，单人独白不超过 4 秒",
+            "items": [
+              "每场对峙必须正反打合组，单人独白不超过 4 秒",
+              "宫内/宫外、日夜切换必须切组并写清光影延续",
+              "群演层次：前景主角清晰、背景虚化工位"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-urban-reversal-seedance",
+      "name": "都市逆袭·Seedance 分镜",
+      "description": "豪门·职场·打脸竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Building",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "都市逆袭"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：冷白顶光 + 窗外霓虹；写字楼、豪宅、宴会厅；参考《狂飙》都市质感；豪车/名牌需虚化规避版权…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "urban-reversal",
+      "pack": {
+        "genre": "都市逆袭",
+        "visualRefs": [
+          "《狂飙》",
+          "《三十而已》",
+          "《别惹真千金》"
+        ],
+        "defaultVisualRef": "《狂飙》",
+        "defaultLighting": "冷白顶光 + 窗外霓虹",
+        "defaultScene": "都市逆袭典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（都市逆袭）、对手、配角",
+        "exampleScript": "【豪门·职场·打脸开场】\n冲突建立，角色对峙。\n[出场角色]：主角（都市逆袭）、对手、配角",
+        "exampleOutput": "[全局锁定] 冷白顶光 + 窗外霓虹；写字楼、豪宅、宴会厅；参考《狂飙》都市质感；豪车/名牌需虚化规避版权。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：羞辱场景（辞退/退婚/泼水）+ 主角隐藏身份暗示；中段：身份揭露慢镜头；集尾：反派跪求或更强敌人登场",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：羞辱场景（辞退/退婚/泼水）+ 主角隐藏身份暗示；中段：身份揭露慢镜头；集尾：反派跪求或",
+            "dialogue": "现代口语，金句犀利；打脸台词配慢镜头特写；男频宜短句霸气，女频可带委屈转凌厉"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——压制→反转两拍结构，每场戏必有",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "都市逆袭分镜要点",
+            "content": "压制→反转两拍结构，每场戏必有",
+            "items": [
+              "压制→反转两拍结构，每场戏必有",
+              "办公室戏 4–6 镜完成，避免拖戏超 90 秒",
+              "雨夜/天台戏专用于情绪高潮，不宜滥用"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-sweet-romance-seedance",
+      "name": "甜宠言情·Seedance 分镜",
+      "description": "霸总·先婚后爱竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Heart",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "甜宠言情"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：高调明亮、柔焦肤质、浅景深；豪宅/咖啡厅/医院走廊；色调偏粉金或冷白高级感，忌脏乱背景…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "sweet-romance",
+      "pack": {
+        "genre": "甜宠言情",
+        "visualRefs": [
+          "《亲爱的，热爱的》",
+          "《月光变奏曲》",
+          "《好一个乖乖女》"
+        ],
+        "defaultVisualRef": "《亲爱的，热爱的》",
+        "defaultLighting": "高调明亮、柔焦肤质、浅景深",
+        "defaultScene": "甜宠言情典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（甜宠言情）、对手、配角",
+        "exampleScript": "【霸总·先婚后爱开场】\n冲突建立，角色对峙。\n[出场角色]：主角（甜宠言情）、对手、配角",
+        "exampleOutput": "[全局锁定] 高调明亮、柔焦肤质、浅景深；豪宅/咖啡厅/医院走廊；色调偏粉金或冷白高级感，忌脏乱背景。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：意外亲密接触或契约结婚签字；15 秒：男主护短名场面；集尾：误会加深或第三者出现",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：意外亲密接触或契约结婚签字；15 秒：男主护短名场面；集尾：误会加深或第三者出现",
+            "dialogue": "甜而不腻；男主少废话多行动；女主可活泼或倔强，忌长篇内心独白"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——CP 互动镜头：牵手/壁咚/公主抱需单独分镜标注",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "甜宠言情分镜要点",
+            "content": "CP 互动镜头：牵手/壁咚/公主抱需单独分镜标注",
+            "items": [
+              "CP 互动镜头：牵手/壁咚/公主抱需单独分镜标注",
+              "每集至少 1 个可截图传播的「名场面」",
+              "误会戏不超过全片 30%，防用户流失"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-revenge-rebirth-seedance",
+      "name": "重生复仇·Seedance 分镜",
+      "description": "重生·穿越·爽文竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sparkles",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "重生复仇"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：前世冷色调闪回（去饱和+颗粒），今生正常饱和；关键道具（信物/合同）特写重复出现形成视觉锚点…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "revenge-rebirth",
+      "pack": {
+        "genre": "重生复仇",
+        "visualRefs": [
+          "《墨雨云间》",
+          "《庆余年》",
+          "《斩仙台下，我震惊了诸神！》"
+        ],
+        "defaultVisualRef": "《墨雨云间》",
+        "defaultLighting": "前世冷色调闪回（去饱和+颗粒），今生正常饱和",
+        "defaultScene": "重生复仇典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（重生复仇）、对手、配角",
+        "exampleScript": "【重生·穿越·爽文开场】\n冲突建立，角色对峙。\n[出场角色]：主角（重生复仇）、对手、配角",
+        "exampleOutput": "[全局锁定] 前世冷色调闪回（去饱和+颗粒），今生正常饱和；关键道具（信物/合同）特写重复出现形成视觉锚点。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：死亡/背叛闪回 + 重生睁眼；30 秒：第一次利用前世记忆小胜；集尾：更大危机或前世真相碎片",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：死亡/背叛闪回 + 重生睁眼；30 秒：第一次利用前世记忆小胜；集尾：更大危机或前世真相",
+            "dialogue": "内心 OS 宜短；对外台词隐忍带锋芒；复仇台词忌过长说教"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——前世/今生必须用色调或画幅区分，防观众混淆",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "重生复仇分镜要点",
+            "content": "前世/今生必须用色调或画幅区分，防观众混淆",
+            "items": [
+              "前世/今生必须用色调或画幅区分，防观众混淆",
+              "每集至少 1 次「信息差打脸」，节奏不可拖",
+              "重生设定第 1 集 30 秒内必须交代清楚"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-war-god-seedance",
+      "name": "战神兵王·Seedance 分镜",
+      "description": "赘婿·兵王·归来竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sword",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "战神兵王"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：硬朗高对比；夜景霓虹+雨天；打斗宜快切不宜长镜头；军装/西装切换要有仪式感…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "war-god",
+      "pack": {
+        "genre": "战神兵王",
+        "visualRefs": [
+          "《战狼》系列",
+          "《叶问》",
+          "《绝世战神》"
+        ],
+        "defaultVisualRef": "《战狼》系列",
+        "defaultLighting": "硬朗高对比",
+        "defaultScene": "战神兵王典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（战神兵王）、对手、配角",
+        "exampleScript": "【赘婿·兵王·归来开场】\n冲突建立，角色对峙。\n[出场角色]：主角（战神兵王）、对手、配角",
+        "exampleOutput": "[全局锁定] 硬朗高对比；夜景霓虹+雨天；打斗宜快切不宜长镜头；军装/西装切换要有仪式感。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：被丈母娘/反派羞辱；15 秒：一个电话/一个眼神震慑全场；集尾：更大势力登场或身份再揭露一层",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：被丈母娘/反派羞辱；15 秒：一个电话/一个眼神震慑全场；集尾：更大势力登场或身份再揭露",
+            "dialogue": "少话狠话；反派宜嚣张浮夸；男主台词克制，宜「你配吗」类短句"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——羞辱场面与反击场面必须成对出现，间隔不超过 45 秒",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "战神兵王分镜要点",
+            "content": "羞辱场面与反击场面必须成对出现，间隔不超过 45 秒",
+            "items": [
+              "羞辱场面与反击场面必须成对出现，间隔不超过 45 秒",
+              "打斗镜头 3–5 镜快切，忌 AI 肢体穿模长镜头",
+              "电话/手下登场是低成本大场面神器"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-rural-rise-seedance",
+      "name": "乡村崛起·Seedance 分镜",
+      "description": "振兴·致富·逆袭竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Rocket",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "乡村崛起"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：自然光、绿意田园、暖色调；航拍田野与特写农产品；忌过度美化失真，宜真实朴素…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "rural-rise",
+      "pack": {
+        "genre": "乡村崛起",
+        "visualRefs": [
+          "《山海情》",
+          "《去有风的地方》",
+          "《我的乡村生活》"
+        ],
+        "defaultVisualRef": "《山海情》",
+        "defaultLighting": "自然光、绿意田园、暖色调",
+        "defaultScene": "乡村崛起典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（乡村崛起）、对手、配角",
+        "exampleScript": "【振兴·致富·逆袭开场】\n冲突建立，角色对峙。\n[出场角色]：主角（乡村崛起）、对手、配角",
+        "exampleOutput": "[全局锁定] 自然光、绿意田园、暖色调；航拍田野与特写农产品；忌过度美化失真，宜真实朴素。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：城市受挫/被看不起 + 乡村全景对比；中段：第一次创业小成功；集尾：村民质疑或天灾危机",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：城市受挫/被看不起 + 乡村全景对比；中段：第一次创业小成功；集尾：村民质疑或天灾危机",
+            "dialogue": "方言适度点缀；朴实直白；励志但不喊口号；亲情戏宜克制"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——农产品/田园场景是视觉卖点，需特写质感",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "乡村崛起分镜要点",
+            "content": "农产品/田园场景是视觉卖点，需特写质感",
+            "items": [
+              "农产品/田园场景是视觉卖点，需特写质感",
+              "城市与乡村用色调对比（冷→暖）暗示情绪转变",
+              "每集展示一个具体致富技能点，增可信度"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-campus-youth-seedance",
+      "name": "校园青春·Seedance 分镜",
+      "description": "青春·成长·初恋竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Heart",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "校园青春"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：明亮清新、校服统一、校园绿植；教室/操场/图书馆；参考《最好的我们》青春质感…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "campus-youth",
+      "pack": {
+        "genre": "校园青春",
+        "visualRefs": [
+          "《最好的我们》",
+          "《你好，旧时光》",
+          "《闪婚老公是学霸》"
+        ],
+        "defaultVisualRef": "《最好的我们》",
+        "defaultLighting": "明亮清新、校服统一、校园绿植",
+        "defaultScene": "校园青春典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（校园青春）、对手、配角",
+        "exampleScript": "【青春·成长·初恋开场】\n冲突建立，角色对峙。\n[出场角色]：主角（校园青春）、对手、配角",
+        "exampleOutput": "[全局锁定] 明亮清新、校服统一、校园绿植；教室/操场/图书馆；参考《最好的我们》青春质感。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：开学/转学/撞见暗恋对象；15 秒：社团冲突或误会；集尾：告白未遂或竞争对手出现",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：开学/转学/撞见暗恋对象；15 秒：社团冲突或误会；集尾：告白未遂或竞争对手出现",
+            "dialogue": "青春口语、轻快；忌成人化心机台词；可适度幽默"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——校服、书包等道具跨集必须一致",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "校园青春分镜要点",
+            "content": "校服、书包等道具跨集必须一致",
+            "items": [
+              "校服、书包等道具跨集必须一致",
+              "校园场景宜白天自然光，忌阴暗压抑（悬疑线除外）",
+              "每集 1 个青春共鸣点（考试/社团/毕业）"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-suspense-crime-seedance",
+      "name": "悬疑犯罪·Seedance 分镜",
+      "description": "刑侦·推理·反转竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Search",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "悬疑犯罪"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：低饱和冷色调、强阴影、手持微晃；雨夜/巷弄/审讯室；参考《隐秘的角落》压迫感…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "suspense-crime",
+      "pack": {
+        "genre": "悬疑犯罪",
+        "visualRefs": [
+          "《隐秘的角落》",
+          "《沉默的真相》",
+          "《谁是凶手》"
+        ],
+        "defaultVisualRef": "《隐秘的角落》",
+        "defaultLighting": "低饱和冷色调、强阴影、手持微晃",
+        "defaultScene": "悬疑犯罪典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（悬疑犯罪）、对手、配角",
+        "exampleScript": "【刑侦·推理·反转开场】\n冲突建立，角色对峙。\n[出场角色]：主角（悬疑犯罪）、对手、配角",
+        "exampleOutput": "[全局锁定] 低饱和冷色调、强阴影、手持微晃；雨夜/巷弄/审讯室；参考《隐秘的角落》压迫感。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：尸体/血迹/失踪预告；每 30 秒抛 1 个线索；集尾：推翻前一假设或新嫌疑人",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：尸体/血迹/失踪预告；每 30 秒抛 1 个线索；集尾：推翻前一假设或新嫌疑人",
+            "dialogue": "信息密度高但句子短；忌一次性倾倒设定；沉默与停顿制造张力"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——线索道具（照片/手机/钥匙）需建立道具表跨集一致",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "悬疑犯罪分镜要点",
+            "content": "线索道具（照片/手机/钥匙）需建立道具表跨集一致",
+            "items": [
+              "线索道具（照片/手机/钥匙）需建立道具表跨集一致",
+              "每集结尾反转必须在片中有伏笔，忌机械反转",
+              "审讯戏正反打节奏参考院线刑侦片"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-female-growth-seedance",
+      "name": "女性成长·Seedance 分镜",
+      "description": "独立·职场·治愈竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Target",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "女性成长"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：都市高级感、自然光办公室、莫兰迪色系；参考《我的前半生》《玫瑰的故事》女性质感…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "female-growth",
+      "pack": {
+        "genre": "女性成长",
+        "visualRefs": [
+          "《我的前半生》",
+          "《玫瑰的故事》",
+          "《妈妈，别回头，一直跑下去》"
+        ],
+        "defaultVisualRef": "《我的前半生》",
+        "defaultLighting": "都市高级感、自然光办公室、莫兰迪色系",
+        "defaultScene": "女性成长典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（女性成长）、对手、配角",
+        "exampleScript": "【独立·职场·治愈开场】\n冲突建立，角色对峙。\n[出场角色]：主角（女性成长）、对手、配角",
+        "exampleOutput": "[全局锁定] 都市高级感、自然光办公室、莫兰迪色系；参考《我的前半生》《玫瑰的故事》女性质感。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：职场打压/婚姻困境；中段：女主觉醒反击；集尾：新挑战或情感抉择",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：职场打压/婚姻困境；中段：女主觉醒反击；集尾：新挑战或情感抉择",
+            "dialogue": "克制有力；金句宜来自经历而非说教；闺蜜戏份调节节奏"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——女主成长弧光分集标注，每 5 集一个小里程碑",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "女性成长分镜要点",
+            "content": "女主成长弧光分集标注，每 5 集一个小里程碑",
+            "items": [
+              "女主成长弧光分集标注，每 5 集一个小里程碑",
+              "职场戏需真实工位/会议细节，忌悬浮",
+              "感情线服务于成长，忌恋爱脑主导"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-xianxia-costume-seedance",
+      "name": "古装仙侠·Seedance 分镜",
+      "description": "修仙·玄幻·虐恋竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Ghost",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "古装仙侠"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：云海仙山、冷青+金红法术光效；衣袂飘动、剑气粒子；参考《苍兰诀》《长相思》仙侠美学…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "xianxia-costume",
+      "pack": {
+        "genre": "古装仙侠",
+        "visualRefs": [
+          "《苍兰诀》",
+          "《长相思》",
+          "《斩仙台下，我震惊了诸神！》"
+        ],
+        "defaultVisualRef": "《苍兰诀》",
+        "defaultLighting": "云海仙山、冷青+金红法术光效",
+        "defaultScene": "古装仙侠典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（古装仙侠）、对手、配角",
+        "exampleScript": "【修仙·玄幻·虐恋开场】\n冲突建立，角色对峙。\n[出场角色]：主角（古装仙侠）、对手、配角",
+        "exampleOutput": "[全局锁定] 云海仙山、冷青+金红法术光效；衣袂飘动、剑气粒子；参考《苍兰诀》《长相思》仙侠美学。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：法术对决/渡劫失败/师徒误会；中段：境界突破或情感撕裂；集尾：更大劫难或身份揭露",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：法术对决/渡劫失败/师徒误会；中段：境界突破或情感撕裂；集尾：更大劫难或身份揭露",
+            "dialogue": "古风仙侠口语；虐恋台词宜痛而不啰嗦；修炼术语需前后一致"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——法术特效建立资产库复用，控制成本",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "古装仙侠分镜要点",
+            "content": "法术特效建立资产库复用，控制成本",
+            "items": [
+              "法术特效建立资产库复用，控制成本",
+              "修仙等级体系第 1 集字幕说明",
+              "虐恋节奏：甜 3 集虐 1 集，防用户流失"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-family-ethics-seedance",
+      "name": "家庭伦理·Seedance 分镜",
+      "description": "婆媳·亲情·和解竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "BookOpen",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "家庭伦理"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：居家自然光、真实生活场景；厨房/客厅/医院；色调温暖但不过度滤镜…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "family-ethics",
+      "pack": {
+        "genre": "家庭伦理",
+        "visualRefs": [
+          "《都挺好》",
+          "《小欢喜》",
+          "《婆家来了》"
+        ],
+        "defaultVisualRef": "《都挺好》",
+        "defaultLighting": "居家自然光、真实生活场景",
+        "defaultScene": "家庭伦理典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（家庭伦理）、对手、配角",
+        "exampleScript": "【婆媳·亲情·和解开场】\n冲突建立，角色对峙。\n[出场角色]：主角（家庭伦理）、对手、配角",
+        "exampleOutput": "[全局锁定] 居家自然光、真实生活场景；厨房/客厅/医院；色调温暖但不过度滤镜。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：家庭冲突爆发（婆媳/亲子）；中段：误会加深或第三方挑拨；集尾：和解契机或更大矛盾",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：家庭冲突爆发（婆媳/亲子）；中段：误会加深或第三方挑拨；集尾：和解契机或更大矛盾",
+            "dialogue": "生活化口语；矛盾宜真实不极端；和解戏宜克制催泪"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——家庭道具（全家福/药方）建立情感锚点",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "家庭伦理分镜要点",
+            "content": "家庭道具（全家福/药方）建立情感锚点",
+            "items": [
+              "家庭道具（全家福/药方）建立情感锚点",
+              "冲突双方需有合理动机，忌脸谱化恶人",
+              "每 3 集宜有一次和解尝试，防压抑流失"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-ceo-romance-seedance",
+      "name": "霸总言情·Seedance 分镜",
+      "description": "豪门·契约·追妻竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Crown",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "霸总言情"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：豪宅、落地窗、高定西装；冷色调办公室+暖色调家居对比；参考韩剧豪门质感…",
+      "categoryId": "domestic-drama",
+      "subCategoryId": "ceo-romance",
+      "pack": {
+        "genre": "霸总言情",
+        "visualRefs": [
+          "《杉杉来了》",
+          "《千山暮雪》",
+          "《闪婚老公是千亿总裁》"
+        ],
+        "defaultVisualRef": "《杉杉来了》",
+        "defaultLighting": "豪宅、落地窗、高定西装",
+        "defaultScene": "霸总言情典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（霸总言情）、对手、配角",
+        "exampleScript": "【豪门·契约·追妻开场】\n冲突建立，角色对峙。\n[出场角色]：主角（霸总言情）、对手、配角",
+        "exampleOutput": "[全局锁定] 豪宅、落地窗、高定西装；冷色调办公室+暖色调家居对比；参考韩剧豪门质感。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：契约签字/误闯总裁办公室；15 秒：霸总壁咚或误会；集尾：女主离开或第三者出现",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：契约签字/误闯总裁办公室；15 秒：霸总壁咚或误会；集尾：女主离开或第三者出现",
+            "dialogue": "霸总少话冷酷；女主倔强不卑；追妻台词宜卑微中带深情"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——总裁办公室/豪宅需建立固定场景资产复用",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "霸总言情分镜要点",
+            "content": "总裁办公室/豪宅需建立固定场景资产复用",
+            "items": [
+              "总裁办公室/豪宅需建立固定场景资产复用",
+              "契约/离婚协议书为视觉道具重复出现",
+              "虐妻不超过 3 集，否则用户差评率高"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-ceo-billionaire-seedance",
+      "name": "霸总豪门·Seedance 分镜",
+      "description": "CEO·Billionaire竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Rocket",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "霸总豪门"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Penthouse skyline, marble interiors, tailored suits; high-ke…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "ceo-billionaire",
+      "pack": {
+        "genre": "霸总豪门",
+        "visualRefs": [
+          "The Double Life of My Billionaire Husband",
+          "Colleen Hoover IP",
+          "Pretty Woman"
+        ],
+        "defaultVisualRef": "The Double Life of My Billionaire Husband",
+        "defaultLighting": "Penthouse skyline, marble interiors, tailored suits; high-key lighting; referenc",
+        "defaultScene": "霸总豪门典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（霸总豪门）、对手、配角",
+        "exampleScript": "【CEO·Billionaire开场】\n冲突建立，角色对峙。\n[出场角色]：主角（霸总豪门）、对手、配角",
+        "exampleOutput": "[全局锁定] Penthouse skyline, marble interiors, tailored suits; high-key lighting; reference Colleen Hoover ada。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Humiliation + CEO reveal hint; 15s: Contract signing o",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Humiliation + CEO reveal hint; 15s: Contract",
+            "dialogue": "Short English lines; dramatic pause befo"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Paywall episodes 6–8 must deliver first major twist",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "霸总豪门分镜要点",
+            "content": "Paywall episodes 6–8 must deliver first major twist",
+            "items": [
+              "Paywall episodes 6–8 must deliver first major twist",
+              "CEO office set reusable across 60+ episodes",
+              "Coin unlock price tested: $0.30–$0.50/ep (Spyro-Soft 2026)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-werewolf-vampire-seedance",
+      "name": "狼人吸血鬼·Seedance 分镜",
+      "description": "Alpha·Mate竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Ghost",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "狼人吸血鬼"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Moonlit forest, amber eyes VFX, leather jackets; desaturated…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "werewolf-vampire",
+      "pack": {
+        "genre": "狼人吸血鬼",
+        "visualRefs": [
+          "Shadowed Thrones",
+          "Twilight",
+          "The Vampire Diaries"
+        ],
+        "defaultVisualRef": "Shadowed Thrones",
+        "defaultLighting": "Moonlit forest, amber eyes VFX, leather jackets; desaturated blues + warm skin t",
+        "defaultScene": "狼人吸血鬼典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（狼人吸血鬼）、对手、配角",
+        "exampleScript": "【Alpha·Mate开场】\n冲突建立，角色对峙。\n[出场角色]：主角（狼人吸血鬼）、对手、配角",
+        "exampleOutput": "[全局锁定] Moonlit forest, amber eyes VFX, leather jackets; desaturated blues + warm skin tones; reference Shad。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Full moon transform or bite mark reveal; 15s: Alpha cl",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Full moon transform or bite mark reveal; 15s",
+            "dialogue": "Primal short lines; possessive but not a"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Wolf VFX: 2–3 hero shots/ep, rest implied with sound design",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "狼人吸血鬼分镜要点",
+            "content": "Wolf VFX: 2–3 hero shots/ep, rest implied with sound design",
+            "items": [
+              "Wolf VFX: 2–3 hero shots/ep, rest implied with sound design",
+              "Mate bond established by ep3 or audience drops",
+              "DramaBox favors longer series — plan 80+ eps for subscription LTV"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-contract-marriage-seedance",
+      "name": "契约婚姻·Seedance 分镜",
+      "description": "Contract·Fake Love竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Heart",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "契约婚姻"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Registry office, wedding dress contrast, luxury car; bright …",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "contract-marriage",
+      "pack": {
+        "genre": "契约婚姻",
+        "visualRefs": [
+          "Marriage Contract (K-drama)",
+          "The Proposal",
+          "Fated to My Forbidden Alpha"
+        ],
+        "defaultVisualRef": "Marriage Contract (K-drama)",
+        "defaultLighting": "Registry office, wedding dress contrast, luxury car; bright rom-com lighting; re",
+        "defaultScene": "契约婚姻典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（契约婚姻）、对手、配角",
+        "exampleScript": "【Contract·Fake Love开场】\n冲突建立，角色对峙。\n[出场角色]：主角（契约婚姻）、对手、配角",
+        "exampleOutput": "[全局锁定] Registry office, wedding dress contrast, luxury car; bright rom-com lighting; reference Korean contr。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Signing contract close-up; 15s: 'We're only pretending",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Signing contract close-up; 15s: 'We're only ",
+            "dialogue": "Witty banter; subtext over confession un"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Contract prop visible in ep1–3 establishing shots",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "契约婚姻分镜要点",
+            "content": "Contract prop visible in ep1–3 establishing shots",
+            "items": [
+              "Contract prop visible in ep1–3 establishing shots",
+              "Fake couple public PDA vs private cold — visual contrast",
+              "Third-party ex must enter before ep8"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-mafia-revenge-seedance",
+      "name": "黑帮复仇·Seedance 分镜",
+      "description": "Mafia·Crime竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sword",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "黑帮复仇"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Low-key chiaroscuro, Italian restaurant, rain-soaked streets…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "mafia-revenge",
+      "pack": {
+        "genre": "黑帮复仇",
+        "visualRefs": [
+          "Peaky Blinders",
+          "The Godfather",
+          "Mafia's Innocent Bride"
+        ],
+        "defaultVisualRef": "Peaky Blinders",
+        "defaultLighting": "Low-key chiaroscuro, Italian restaurant, rain-soaked streets; reference Peaky Bl",
+        "defaultScene": "黑帮复仇典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（黑帮复仇）、对手、配角",
+        "exampleScript": "【Mafia·Crime开场】\n冲突建立，角色对峙。\n[出场角色]：主角（黑帮复仇）、对手、配角",
+        "exampleOutput": "[全局锁定] Low-key chiaroscuro, Italian restaurant, rain-soaked streets; reference Peaky Blinders compression f。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Blood oath / gun slide / funeral; 15s: 'You owe my fam",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Blood oath / gun slide / funeral; 15s: 'You ",
+            "dialogue": "Terse threats; subtext heavy; avoid cart"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Violence implied: cutaway + sound, not graphic",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "黑帮复仇分镜要点",
+            "content": "Violence implied: cutaway + sound, not graphic",
+            "items": [
+              "Violence implied: cutaway + sound, not graphic",
+              "Mafia hierarchy chart for writers — Consigliere, Capo, Don",
+              "Female lead often 'innocent caught in war' — establish by ep2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-secret-baby-seedance",
+      "name": "秘密婴儿·Seedance 分镜",
+      "description": "Secret Baby竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Heart",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "秘密婴儿"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Soft natural light for child scenes; contrast with cold corp…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "secret-baby",
+      "pack": {
+        "genre": "秘密婴儿",
+        "visualRefs": [
+          "Jane the Virgin",
+          "The Notebook",
+          "Billionaire's Secret Baby"
+        ],
+        "defaultVisualRef": "Jane the Virgin",
+        "defaultLighting": "Soft natural light for child scenes; contrast with cold corporate father's world",
+        "defaultScene": "秘密婴儿典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（秘密婴儿）、对手、配角",
+        "exampleScript": "【Secret Baby开场】\n冲突建立，角色对峙。\n[出场角色]：主角（秘密婴儿）、对手、配角",
+        "exampleOutput": "[全局锁定] Soft natural light for child scenes; contrast with cold corporate father's world; warm home vs glass。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Positive pregnancy test / child at door; 15s: 'He's yo",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Positive pregnancy test / child at door; 15s",
+            "dialogue": "Emotional but not melodramatic; child ac"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Child appearance age-consistent across episodes",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "秘密婴儿分镜要点",
+            "content": "Child appearance age-consistent across episodes",
+            "items": [
+              "Child appearance age-consistent across episodes",
+              "DNA test / birth certificate as recurring props",
+              "Father's softening arc: 1 visible crack per 5 episodes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-revenge-ex-seedance",
+      "name": "复仇前任·Seedance 分镜",
+      "description": "Ex·Betrayal竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sparkles",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "复仇前任"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Before: desaturated humble; After: saturated luxury montage;…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "revenge-ex",
+      "pack": {
+        "genre": "复仇前任",
+        "visualRefs": [
+          "Revenge (TV)",
+          "The First Wives Club",
+          "After Divorce, I Became a Billionaire"
+        ],
+        "defaultVisualRef": "Revenge (TV)",
+        "defaultLighting": "Before: desaturated humble; After: saturated luxury montage; gala entrance slow-",
+        "defaultScene": "复仇前任典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（复仇前任）、对手、配角",
+        "exampleScript": "【Ex·Betrayal开场】\n冲突建立，角色对峙。\n[出场角色]：主角（复仇前任）、对手、配角",
+        "exampleOutput": "[全局锁定] Before: desaturated humble; After: saturated luxury montage; gala entrance slow-motion staple。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Cheating caught on camera; 15s: 'You chose wrong'; Cli",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Cheating caught on camera; 15s: 'You chose w",
+            "dialogue": "Cold confidence post-revenge; flashback "
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Makeover reveal shot mandatory ep3–5",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "复仇前任分镜要点",
+            "content": "Makeover reveal shot mandatory ep3–5",
+            "items": [
+              "Makeover reveal shot mandatory ep3–5",
+              "Ex must grovel ep12+ or audience churns",
+              "New love interest enters ep4 — triangle sustains paywall"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-medical-romance-seedance",
+      "name": "医疗言情·Seedance 分镜",
+      "description": "Doctor·Hospital竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Target",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "医疗言情"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Clean hospital whites, blue scrubs, shallow depth; monitor b…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "medical-romance",
+      "pack": {
+        "genre": "医疗言情",
+        "visualRefs": [
+          "Grey's Anatomy",
+          "The Good Doctor",
+          "The Surgeon's Secret Wife"
+        ],
+        "defaultVisualRef": "Grey's Anatomy",
+        "defaultLighting": "Clean hospital whites, blue scrubs, shallow depth; monitor beeps as rhythm; refe",
+        "defaultScene": "医疗言情典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（医疗言情）、对手、配角",
+        "exampleScript": "【Doctor·Hospital开场】\n冲突建立，角色对峙。\n[出场角色]：主角（医疗言情）、对手、配角",
+        "exampleOutput": "[全局锁定] Clean hospital whites, blue scrubs, shallow depth; monitor beeps as rhythm; reference Grey's vertica。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: ER crash / scalpel close-up; 15s: Forbidden glance acr",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: ER crash / scalpel close-up; 15s: Forbidden ",
+            "dialogue": "Medical jargon light; professional bante"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——No real procedure tutorials — FDA/FTC sensitive",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "医疗言情分镜要点",
+            "content": "No real procedure tutorials — FDA/FTC sensitive",
+            "items": [
+              "No real procedure tutorials — FDA/FTC sensitive",
+              "Hospital set reusable: OR, break room, roof",
+              "One medical crisis per 4 eps drives stakes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-royal-aristocrat-seedance",
+      "name": "皇室贵族·Seedance 分镜",
+      "description": "Royal·Duke竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Crown",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "皇室贵族"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Palace gold, ballroom chandeliers, formal wear; reference Br…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "royal-aristocrat",
+      "pack": {
+        "genre": "皇室贵族",
+        "visualRefs": [
+          "Bridgerton",
+          "The Crown",
+          "Married to the Prince"
+        ],
+        "defaultVisualRef": "Bridgerton",
+        "defaultLighting": "Palace gold, ballroom chandeliers, formal wear; reference Bridgerton color gradi",
+        "defaultScene": "皇室贵族典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（皇室贵族）、对手、配角",
+        "exampleScript": "【Royal·Duke开场】\n冲突建立，角色对峙。\n[出场角色]：主角（皇室贵族）、对手、配角",
+        "exampleOutput": "[全局锁定] Palace gold, ballroom chandeliers, formal wear; reference Bridgerton color grading for vertical。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Crown ceremony / paparazzi flash; 15s: 'You can't marr",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Crown ceremony / paparazzi flash; 15s: 'You ",
+            "dialogue": "Formal address shifting to intimate; 'Yo"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Royal title chart — avoid real UK/EU family names",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "皇室贵族分镜要点",
+            "content": "Royal title chart — avoid real UK/EU family names",
+            "items": [
+              "Royal title chart — avoid real UK/EU family names",
+              "Ballroom episode ep10–15 for costume budget spike",
+              "Paparazzi montage as cheap tension builder"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-sports-star-seedance",
+      "name": "体育明星·Seedance 分镜",
+      "description": "Athlete·Comeback竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Rocket",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "体育明星"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Stadium lights, sweat close-ups, locker room; high shutter f…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "sports-star",
+      "pack": {
+        "genre": "体育明星",
+        "visualRefs": [
+          "Rocky",
+          "Ted Lasso",
+          "The Quarterback's Secret"
+        ],
+        "defaultVisualRef": "Rocky",
+        "defaultLighting": "Stadium lights, sweat close-ups, locker room; high shutter for action; reference",
+        "defaultScene": "体育明星典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（体育明星）、对手、配角",
+        "exampleScript": "【Athlete·Comeback开场】\n冲突建立，角色对峙。\n[出场角色]：主角（体育明星）、对手、配角",
+        "exampleOutput": "[全局锁定] Stadium lights, sweat close-ups, locker room; high shutter for action; reference Rocky vertical beat。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Injury slow-mo / trophy shatter; 15s: 'You'll never pl",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Injury slow-mo / trophy shatter; 15s: 'You'l",
+            "dialogue": "Motivational short lines; trash talk; vu"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——No real athlete likeness or team logos",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "体育明星分镜要点",
+            "content": "No real athlete likeness or team logos",
+            "items": [
+              "No real athlete likeness or team logos",
+              "Training montage every 5 eps — low cost high emotion",
+              "Championship ep20+ as season finale hook"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-twin-swap-seedance",
+      "name": "双胞胎互换·Seedance 分镜",
+      "description": "Twin·Identity竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sparkles",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "双胞胎互换"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Split screen, mirror shots, matching outfits; slight hairsty…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "twin-swap",
+      "pack": {
+        "genre": "双胞胎互换",
+        "visualRefs": [
+          "The Parent Trap",
+          "Dead Ringers",
+          "The CEO's Twin Bride"
+        ],
+        "defaultVisualRef": "The Parent Trap",
+        "defaultLighting": "Split screen, mirror shots, matching outfits; slight hairstyle diff for audience",
+        "defaultScene": "双胞胎互换典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（双胞胎互换）、对手、配角",
+        "exampleScript": "【Twin·Identity开场】\n冲突建立，角色对峙。\n[出场角色]：主角（双胞胎互换）、对手、配角",
+        "exampleOutput": "[全局锁定] Split screen, mirror shots, matching outfits; slight hairstyle diff for audience clarity。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Twins switch clothes / mirror reveal; 15s: Wrong twin ",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Twins switch clothes / mirror reveal; 15s: W",
+            "dialogue": "Comedic misunderstanding; 'I'm not who y"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Twin actors or AI face-lock mandatory — consistency is everything",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "双胞胎互换分镜要点",
+            "content": "Twin actors or AI face-lock mandatory — consistency is everything",
+            "items": [
+              "Twin actors or AI face-lock mandatory — consistency is everything",
+              "Accessory diff (earring, watch) helps audience track",
+              "Switch reveal to love interest ep8–12"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-amnesia-love-seedance",
+      "name": "失忆爱恋·Seedance 分镜",
+      "description": "Amnesia·Second Chance竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Heart",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "失忆爱恋"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Soft focus for memories; sharp present; polaroid-style flash…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "amnesia-love",
+      "pack": {
+        "genre": "失忆爱恋",
+        "visualRefs": [
+          "The Vow",
+          "50 First Dates",
+          "My Husband Forgot He Loved Me"
+        ],
+        "defaultVisualRef": "The Vow",
+        "defaultLighting": "Soft focus for memories; sharp present; polaroid-style flashback inserts; hospit",
+        "defaultScene": "失忆爱恋典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（失忆爱恋）、对手、配角",
+        "exampleScript": "【Amnesia·Second Chance开场】\n冲突建立，角色对峙。\n[出场角色]：主角（失忆爱恋）、对手、配角",
+        "exampleOutput": "[全局锁定] Soft focus for memories; sharp present; polaroid-style flashback inserts; hospital white opening。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Car crash / wake up 'Who are you?'; 15s: Stranger clai",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Car crash / wake up 'Who are you?'; 15s: Str",
+            "dialogue": "Fragile present voice; memory fragments "
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Memory flashbacks ≤2s, desaturated + vignette",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "失忆爱恋分镜要点",
+            "content": "Memory flashbacks ≤2s, desaturated + vignette",
+            "items": [
+              "Memory flashbacks ≤2s, desaturated + vignette",
+              "Trigger objects: song, scar, restaurant — repeat across eps",
+              "Antagonist hides truth — reveal ep18–25"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-hidden-identity-seedance",
+      "name": "隐藏身份·Seedance 分镜",
+      "description": "Secret Identity竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Search",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "隐藏身份"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：Dual wardrobe: work uniform vs hidden wealth; split lighting…",
+      "categoryId": "overseas-drama",
+      "subCategoryId": "hidden-identity",
+      "pack": {
+        "genre": "隐藏身份",
+        "visualRefs": [
+          "Superman / Clark Kent",
+          "Working Girl",
+          "The Janitor Is Actually the CEO"
+        ],
+        "defaultVisualRef": "Superman / Clark Kent",
+        "defaultLighting": "Dual wardrobe: work uniform vs hidden wealth; split lighting warm/cool; garage s",
+        "defaultScene": "隐藏身份典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（隐藏身份）、对手、配角",
+        "exampleScript": "【Secret Identity开场】\n冲突建立，角色对峙。\n[出场角色]：主角（隐藏身份）、对手、配角",
+        "exampleOutput": "[全局锁定] Dual wardrobe: work uniform vs hidden wealth; split lighting warm/cool; garage supercar reveal shots。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3s: Humble job + luxury car pull up; 15s: Assistant calls ",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3s: Humble job + luxury car pull up; 15s: Assist",
+            "dialogue": "Understated humble cover; inner confiden"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——Identity layers: reveal one level every 7–10 eps",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "隐藏身份分镜要点",
+            "content": "Identity layers: reveal one level every 7–10 eps",
+            "items": [
+              "Identity layers: reveal one level every 7–10 eps",
+              "Workplace scenes must feel authentic — not just backdrop",
+              "Sidekick who knows secret — comedy relief valve"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-anime-jp-2d-seedance",
+      "name": "日系二次元·Seedance 分镜",
+      "description": "番剧·萌系·热血竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sparkles",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "日系二次元"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：赛璐璐平涂、大眼睛比例、樱花/教室/异世界；参考《鬼灭》《间谍过家家》色彩饱和度；线稿清晰…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "anime-jp-2d",
+      "pack": {
+        "genre": "日系二次元",
+        "visualRefs": [
+          "《鬼灭之刃》",
+          "《间谍过家家》",
+          "《斩仙台下，我震惊了诸神！》"
+        ],
+        "defaultVisualRef": "《鬼灭之刃》",
+        "defaultLighting": "赛璐璐平涂、大眼睛比例、樱花/教室/异世界",
+        "defaultScene": "日系二次元典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（日系二次元）、对手、配角",
+        "exampleScript": "【番剧·萌系·热血开场】\n冲突建立，角色对峙。\n[出场角色]：主角（日系二次元）、对手、配角",
+        "exampleOutput": "[全局锁定] 赛璐璐平涂、大眼睛比例、樱花/教室/异世界；参考《鬼灭》《间谍过家家》色彩饱和度；线稿清晰。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：必杀技特写/萌系翻车；每 30 秒 1 个笑点或燃点；集尾：Boss 登场或新角色剪影",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：必杀技特写/萌系翻车；每 30 秒 1 个笑点或燃点；集尾：Boss 登场或新角色剪影",
+            "dialogue": "日系轻小说口语；吐槽役+正经役搭配；战斗台词宜中二但短"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——角色三视图 + 表情差分表先于量产",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "日系二次元分镜要点",
+            "content": "角色三视图 + 表情差分表先于量产",
+            "items": [
+              "角色三视图 + 表情差分表先于量产",
+              "口型：日语嘴型适配中文配音需单独调整",
+              "战斗镜头 3–5 秒/切，忌长镜头穿模"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-anime-cn-2d-seedance",
+      "name": "国漫风格·Seedance 分镜",
+      "description": "仙侠·武侠·热血竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Film",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "国漫风格"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：国风配色（青绿+金红）、飘逸衣袂、水墨晕染边缘；参考《凡人修仙传》《雾山五行》…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "anime-cn-2d",
+      "pack": {
+        "genre": "国漫风格",
+        "visualRefs": [
+          "《凡人修仙传》",
+          "《雾山五行》",
+          "《斩仙台下，我震惊了诸神！》"
+        ],
+        "defaultVisualRef": "《凡人修仙传》",
+        "defaultLighting": "国风配色（青绿+金红）、飘逸衣袂、水墨晕染边缘",
+        "defaultScene": "国漫风格典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（国漫风格）、对手、配角",
+        "exampleScript": "【仙侠·武侠·热血开场】\n冲突建立，角色对峙。\n[出场角色]：主角（国漫风格）、对手、配角",
+        "exampleOutput": "[全局锁定] 国风配色（青绿+金红）、飘逸衣袂、水墨晕染边缘；参考《凡人修仙传》《雾山五行》。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：剑气/法术冲击；15 秒：境界突破或反派嘲讽；集尾：秘境开启或师父现身",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：剑气/法术冲击；15 秒：境界突破或反派嘲讽；集尾：秘境开启或师父现身",
+            "dialogue": "古风武侠口语；升级体系台词一致；忌现代梗破坏沉浸"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——修仙等级体系字幕卡 ep1 必出",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "国漫风格分镜要点",
+            "content": "修仙等级体系字幕卡 ep1 必出",
+            "items": [
+              "修仙等级体系字幕卡 ep1 必出",
+              "法术特效资产库复用降本",
+              "武器/法宝造型跨集一致"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-motion-comic-seedance",
+      "name": "条漫动态化·Seedance 分镜",
+      "description": "竖屏·连载·漫剧竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "BookOpen",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "条漫动态化"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：分格边框、速度线、Q 版切换；大字号台词气泡；参考快看/咚漫动态漫…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "motion-comic",
+      "pack": {
+        "genre": "条漫动态化",
+        "visualRefs": [
+          "《一人之下》动态漫",
+          "快看漫画动态化",
+          "《我靠修仙在大佬们头顶蹦迪》"
+        ],
+        "defaultVisualRef": "《一人之下》动态漫",
+        "defaultLighting": "分格边框、速度线、Q 版切换",
+        "defaultScene": "条漫动态化典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（条漫动态化）、对手、配角",
+        "exampleScript": "【竖屏·连载·漫剧开场】\n冲突建立，角色对峙。\n[出场角色]：主角（条漫动态化）、对手、配角",
+        "exampleOutput": "[全局锁定] 分格边框、速度线、Q 版切换；大字号台词气泡；参考快看/咚漫动态漫。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：漫画分格猛推+音效冲击；每 15 秒 1 个反转；集尾：下集预告分格",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：漫画分格猛推+音效冲击；每 15 秒 1 个反转；集尾：下集预告分格",
+            "dialogue": "网文口语化；旁白宜多；吐槽字幕可打破第四面墙"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——分格模板 4–6 格/分钟，统一边框样式",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "条漫动态化分镜要点",
+            "content": "分格模板 4–6 格/分钟，统一边框样式",
+            "items": [
+              "分格模板 4–6 格/分钟，统一边框样式",
+              "表情包式表情切换代替复杂口型",
+              "日更产能：1 人 3–5 集/天（极速流）"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-wuxia-action-seedance",
+      "name": "武侠动作·Seedance 分镜",
+      "description": "打斗·招式·江湖竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sword",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "武侠动作"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：竹林、客栈、擂台；水墨动作拖尾；参考《雾山五行》打斗、徐克武侠光影…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "wuxia-action",
+      "pack": {
+        "genre": "武侠动作",
+        "visualRefs": [
+          "《雾山五行》",
+          "《笑傲江湖》",
+          "《斗罗大陆》"
+        ],
+        "defaultVisualRef": "《雾山五行》",
+        "defaultLighting": "竹林、客栈、擂台",
+        "defaultScene": "武侠动作典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（武侠动作）、对手、配角",
+        "exampleScript": "【打斗·招式·江湖开场】\n冲突建立，角色对峙。\n[出场角色]：主角（武侠动作）、对手、配角",
+        "exampleOutput": "[全局锁定] 竹林、客栈、擂台；水墨动作拖尾；参考《雾山五行》打斗、徐克武侠光影。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：刀光剑影特写；每 45 秒 1 场打斗；集尾：新门派/仇人登场",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：刀光剑影特写；每 45 秒 1 场打斗；集尾：新门派/仇人登场",
+            "dialogue": "江湖口吻；招式名宜朗朗上口；反派嚣张简短"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——打斗分镜：起势→交锋→结果，每段 ≤5 秒",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "武侠动作分镜要点",
+            "content": "打斗分镜：起势→交锋→结果，每段 ≤5 秒",
+            "items": [
+              "打斗分镜：起势→交锋→结果，每段 ≤5 秒",
+              "轻功用速度线+仰角，忌长镜头飘移",
+              "兵器造型跨集一致，建立武器库"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-xianxia-fantasy-seedance",
+      "name": "仙侠奇幻·Seedance 分镜",
+      "description": "修仙·法术·云海竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Ghost",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "仙侠奇幻"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：云海仙山、灵气粒子、御剑飞行；青金配色；参考《完美世界》《仙逆》动画…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "xianxia-fantasy",
+      "pack": {
+        "genre": "仙侠奇幻",
+        "visualRefs": [
+          "《斩仙台下，我震惊了诸神！》",
+          "《完美世界》",
+          "《仙逆》"
+        ],
+        "defaultVisualRef": "《斩仙台下，我震惊了诸神！》",
+        "defaultLighting": "云海仙山、灵气粒子、御剑飞行",
+        "defaultScene": "仙侠奇幻典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（仙侠奇幻）、对手、配角",
+        "exampleScript": "【修仙·法术·云海开场】\n冲突建立，角色对峙。\n[出场角色]：主角（仙侠奇幻）、对手、配角",
+        "exampleOutput": "[全局锁定] 云海仙山、灵气粒子、御剑飞行；青金配色；参考《完美世界》《仙逆》动画。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：渡劫/法术对轰；15 秒：境界突破；集尾：宗门危机或情缘劫难",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：渡劫/法术对轰；15 秒：境界突破；集尾：宗门危机或情缘劫难",
+            "dialogue": "仙侠口语；修炼术语一致；虐恋台词宜痛而不冗"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——世界观字幕卡 + 境界体系图 ep1",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "仙侠奇幻分镜要点",
+            "content": "世界观字幕卡 + 境界体系图 ep1",
+            "items": [
+              "世界观字幕卡 + 境界体系图 ep1",
+              "法术特效 5–8 个母版复用",
+              "御剑/飞行镜头用模板降本"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-music-video-seedance",
+      "name": "音乐 MV·Seedance 分镜",
+      "description": "节奏·叙事·视觉竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Music",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "音乐 MV"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：高饱和、光效、粒子；风格随曲风（电子/民谣/说唱）；参考 Billie Eilish / 周杰伦 MV 构图…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "music-video",
+      "pack": {
+        "genre": "音乐 MV",
+        "visualRefs": [
+          "《七里香》",
+          "《bad guy》",
+          "AI 歌手 MV 案例"
+        ],
+        "defaultVisualRef": "《七里香》",
+        "defaultLighting": "高饱和、光效、粒子",
+        "defaultScene": "音乐 MV典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（音乐 MV）、对手、配角",
+        "exampleScript": "【节奏·叙事·视觉开场】\n冲突建立，角色对峙。\n[出场角色]：主角（音乐 MV）、对手、配角",
+        "exampleOutput": "[全局锁定] 高饱和、光效、粒子；风格随曲风（电子/民谣/说唱）；参考 Billie Eilish / 周杰伦 MV 构图。角色全程一致！\n\n[0-3秒] 钩子镜头——按音乐节拍切镜：副歌前 buildup、副歌视觉爆发；叙事 MV 每 30 秒 1 个意象转折",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——按音乐节拍切镜：副歌前 buildup、副歌视觉爆发；叙事 MV 每 30 秒 1 个意象转折",
+            "dialogue": "通常无对白；旁白可选；歌词字幕与画面意象呼应"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——先锁定 BPM 与节拍点再分镜",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "音乐 MV分镜要点",
+            "content": "先锁定 BPM 与节拍点再分镜",
+            "items": [
+              "先锁定 BPM 与节拍点再分镜",
+              "副歌镜头预算占比 40%",
+              "口型同步仅主唱近景使用"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-kids-edu-seedance",
+      "name": "儿童科教·Seedance 分镜",
+      "description": "启蒙·科普·亲子竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Target",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "儿童科教"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：高饱和圆润造型、大眼睛、简洁背景；参考《小猪佩奇》《超级宝贝JOJO》安全色…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "kids-edu",
+      "pack": {
+        "genre": "儿童科教",
+        "visualRefs": [
+          "《小猪佩奇》",
+          "《超级宝贝JOJO》",
+          "《工作细胞》"
+        ],
+        "defaultVisualRef": "《小猪佩奇》",
+        "defaultLighting": "高饱和圆润造型、大眼睛、简洁背景",
+        "defaultScene": "儿童科教典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（儿童科教）、对手、配角",
+        "exampleScript": "【启蒙·科普·亲子开场】\n冲突建立，角色对峙。\n[出场角色]：主角（儿童科教）、对手、配角",
+        "exampleOutput": "[全局锁定] 高饱和圆润造型、大眼睛、简洁背景；参考《小猪佩奇》《超级宝贝JOJO》安全色。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：可爱角色+问题提出；每 60 秒 1 个知识点；集尾：互动提问留悬念",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：可爱角色+问题提出；每 60 秒 1 个知识点；集尾：互动提问留悬念",
+            "dialogue": "简单句、重复强化；旁白亲切；忌复杂术语"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——知识点须专家审核",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "儿童科教分镜要点",
+            "content": "知识点须专家审核",
+            "items": [
+              "知识点须专家审核",
+              "单集时长 3–5 分钟，节奏慢于成人向",
+              "角色造型避免恐怖元素"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-brand-mascot-seedance",
+      "name": "品牌 IP 动画·Seedance 分镜",
+      "description": "吉祥物·广告动画竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Megaphone",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "品牌 IP 动画"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：品牌 VI 色严格遵循；圆润友好造型；参考美团袋鼠、天猫猫头…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "brand-mascot",
+      "pack": {
+        "genre": "品牌 IP 动画",
+        "visualRefs": [
+          "美团袋鼠",
+          "天猫猫头",
+          "蜜雪冰城 MV"
+        ],
+        "defaultVisualRef": "美团袋鼠",
+        "defaultLighting": "品牌 VI 色严格遵循",
+        "defaultScene": "品牌 IP 动画典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（品牌 IP 动画）、对手、配角",
+        "exampleScript": "【吉祥物·广告动画开场】\n冲突建立，角色对峙。\n[出场角色]：主角（品牌 IP 动画）、对手、配角",
+        "exampleOutput": "[全局锁定] 品牌 VI 色严格遵循；圆润友好造型；参考美团袋鼠、天猫猫头。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：吉祥物亮相+品牌色；15 秒：产品利益点；结尾：Slogan+Logo 定版",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：吉祥物亮相+品牌色；15 秒：产品利益点；结尾：Slogan+Logo 定版",
+            "dialogue": "品牌调性一致；幽默或温馨；忌竞品贬损"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——品牌 VI 手册前置审核",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "品牌 IP 动画分镜要点",
+            "content": "品牌 VI 手册前置审核",
+            "items": [
+              "品牌 VI 手册前置审核",
+              "吉祥物三视图纳入品牌资产",
+              "多尺寸导出：9:16/16:9/1:1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-sci-fi-3d-seedance",
+      "name": "科幻 3D·Seedance 分镜",
+      "description": "机甲·太空·写实竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Rocket",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "科幻 3D"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：硬表面机甲、霓虹赛博、太空冷光；参考《爱死机》《灵笼》工业细节…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "sci-fi-3d",
+      "pack": {
+        "genre": "科幻 3D",
+        "visualRefs": [
+          "《爱，死亡和机器人》",
+          "《灵笼》",
+          "《流浪地球》"
+        ],
+        "defaultVisualRef": "《爱，死亡和机器人》",
+        "defaultLighting": "硬表面机甲、霓虹赛博、太空冷光",
+        "defaultScene": "科幻 3D典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（科幻 3D）、对手、配角",
+        "exampleScript": "【机甲·太空·写实开场】\n冲突建立，角色对峙。\n[出场角色]：主角（科幻 3D）、对手、配角",
+        "exampleOutput": "[全局锁定] 硬表面机甲、霓虹赛博、太空冷光；参考《爱死机》《灵笼》工业细节。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：机甲眼部亮起/飞船跃迁；每 60 秒 1 个世界观信息；集尾：外星信号或叛变",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：机甲眼部亮起/飞船跃迁；每 60 秒 1 个世界观信息；集尾：外星信号或叛变",
+            "dialogue": "科幻术语一致；舰长/AI 旁白；忌设定堆砌"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——机甲/飞船建立 3D 参考模型或 LoRA",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "科幻 3D分镜要点",
+            "content": "机甲/飞船建立 3D 参考模型或 LoRA",
+            "items": [
+              "机甲/飞船建立 3D 参考模型或 LoRA",
+              "太空镜头用粒子+镜头光晕模板",
+              "单集特效镜头 ≤15 个控制成本"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-ink-wash-seedance",
+      "name": "水墨国风·Seedance 分镜",
+      "description": "写意·山水·非遗竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Palette",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "水墨国风"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：墨色浓淡、留白、宣纸质感；参考《山水情》《白蛇：缘起》水墨段落…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "ink-wash",
+      "pack": {
+        "genre": "水墨国风",
+        "visualRefs": [
+          "《山水情》",
+          "《白蛇：缘起》",
+          "《只此青绿》"
+        ],
+        "defaultVisualRef": "《山水情》",
+        "defaultLighting": "墨色浓淡、留白、宣纸质感",
+        "defaultScene": "水墨国风典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（水墨国风）、对手、配角",
+        "exampleScript": "【写意·山水·非遗开场】\n冲突建立，角色对峙。\n[出场角色]：主角（水墨国风）、对手、配角",
+        "exampleOutput": "[全局锁定] 墨色浓淡、留白、宣纸质感；参考《山水情》《白蛇：缘起》水墨段落。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：水墨晕染展开；按意境节奏缓切；集尾：留白+题字",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：水墨晕染展开；按意境节奏缓切；集尾：留白+题字",
+            "dialogue": "古诗旁白或无声；琴瑟配乐；忌现代口语破坏意境"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——水墨晕染过渡用 AI 风格迁移统一",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "水墨国风分镜要点",
+            "content": "水墨晕染过渡用 AI 风格迁移统一",
+            "items": [
+              "水墨晕染过渡用 AI 风格迁移统一",
+              "非遗技艺须顾问审定准确性",
+              "节奏慢于商业向，单集 2–4 分钟"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-horror-anime-seedance",
+      "name": "悬疑惊悚动画·Seedance 分镜",
+      "description": "暗黑·心理·氛围竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Ghost",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "悬疑惊悚动画"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：低饱和、强阴影、不对称构图；参考《另一个我》《暗芝居》…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "horror-anime",
+      "pack": {
+        "genre": "悬疑惊悚动画",
+        "visualRefs": [
+          "《暗芝居》",
+          "《另一个我》",
+          "《寂静岭》"
+        ],
+        "defaultVisualRef": "《暗芝居》",
+        "defaultLighting": "低饱和、强阴影、不对称构图",
+        "defaultScene": "悬疑惊悚动画典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（悬疑惊悚动画）、对手、配角",
+        "exampleScript": "【暗黑·心理·氛围开场】\n冲突建立，角色对峙。\n[出场角色]：主角（悬疑惊悚动画）、对手、配角",
+        "exampleOutput": "[全局锁定] 低饱和、强阴影、不对称构图；参考《另一个我》《暗芝居》。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：异常细节（镜子/门缝）；每 45 秒压迫感升级；集尾：真相碎片",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：异常细节（镜子/门缝）；每 45 秒压迫感升级；集尾：真相碎片",
+            "dialogue": "少言多氛围；独白碎片化；静音段落制造不安"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——恐怖暗示：音效+阴影，忌血腥直给",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "悬疑惊悚动画分镜要点",
+            "content": "恐怖暗示：音效+阴影，忌血腥直给",
+            "items": [
+              "恐怖暗示：音效+阴影，忌血腥直给",
+              "18+ 标识与平台年龄限制",
+              "心理恐怖优于 jump scare 堆砌"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-comedy-slice-seedance",
+      "name": "搞笑日常·Seedance 分镜",
+      "description": "轻喜剧·泡面番竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sparkles",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "搞笑日常"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：明亮扁平、Q 版切换、表情包式变形；参考《银魂》日常、《刺客伍六七》搞笑段落…",
+      "categoryId": "ai-animation",
+      "subCategoryId": "comedy-slice",
+      "pack": {
+        "genre": "搞笑日常",
+        "visualRefs": [
+          "《刺客伍六七》",
+          "《银魂》",
+          "《茶啊二中》"
+        ],
+        "defaultVisualRef": "《刺客伍六七》",
+        "defaultLighting": "明亮扁平、Q 版切换、表情包式变形",
+        "defaultScene": "搞笑日常典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（搞笑日常）、对手、配角",
+        "exampleScript": "【轻喜剧·泡面番开场】\n冲突建立，角色对峙。\n[出场角色]：主角（搞笑日常）、对手、配角",
+        "exampleOutput": "[全局锁定] 明亮扁平、Q 版切换、表情包式变形；参考《银魂》日常、《刺客伍六七》搞笑段落。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：反差萌翻车；每 20 秒 1 个笑点；集尾：下集预告梗",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：反差萌翻车；每 20 秒 1 个笑点；集尾：下集预告梗",
+            "dialogue": "吐槽密集；打破第四面墙可选；方言幽默需字幕注释"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——笑点分镜单独标注，节奏快于叙事向",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "搞笑日常分镜要点",
+            "content": "笑点分镜单独标注，节奏快于叙事向",
+            "items": [
+              "笑点分镜单独标注，节奏快于叙事向",
+              "Q 版切换降低动作成本",
+              "单集 1–2 分钟，适合碎片消费"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-author-film-seedance",
+      "name": "作者电影·Seedance 分镜",
+      "description": "影展·文艺·表达竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Clapperboard",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "作者电影"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：固定长镜头、自然光、手持呼吸感；参考贾樟柯、毕赣长镜头美学；画幅 2.39:1 或 4:3…",
+      "categoryId": "film-short",
+      "subCategoryId": "author-film",
+      "pack": {
+        "genre": "作者电影",
+        "visualRefs": [
+          "《地球最后的夜晚》",
+          "《三峡好人》",
+          "FIRST 短片单元"
+        ],
+        "defaultVisualRef": "《地球最后的夜晚》",
+        "defaultLighting": "固定长镜头、自然光、手持呼吸感",
+        "defaultScene": "作者电影典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（作者电影）、对手、配角",
+        "exampleScript": "【影展·文艺·表达开场】\n冲突建立，角色对峙。\n[出场角色]：主角（作者电影）、对手、配角",
+        "exampleOutput": "[全局锁定] 固定长镜头、自然光、手持呼吸感；参考贾樟柯、毕赣长镜头美学；画幅 2.39:1 或 4:3。角色全程一致！\n\n[0-3秒] 钩子镜头——非商业钩子：开场建立情绪基调（30 秒内）；中段意象积累；结尾开放式或诗意定格",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——非商业钩子：开场建立情绪基调（30 秒内）；中段意象积累；结尾开放式或诗意定格",
+            "dialogue": "方言或诗化旁白；少对白多环境音；沉默作为叙事手段"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——剧本须完整导演阐述",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "作者电影分镜要点",
+            "content": "剧本须完整导演阐述",
+            "items": [
+              "剧本须完整导演阐述",
+              "投递格式：DCP 或 1080p ProRes",
+              "时长通常 15–40 分钟或 5 分钟内微短片"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-thriller-suspense-seedance",
+      "name": "悬疑惊悚·Seedance 分镜",
+      "description": "反转·压迫·氛围竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Search",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "悬疑惊悚"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：低饱和、强阴影、荷兰角；密闭空间（电梯/仓库）；参考《看不见的客人》压缩版…",
+      "categoryId": "film-short",
+      "subCategoryId": "thriller-suspense",
+      "pack": {
+        "genre": "悬疑惊悚",
+        "visualRefs": [
+          "《看不见的客人》",
+          "《禁闭岛》",
+          "《调音师》"
+        ],
+        "defaultVisualRef": "《看不见的客人》",
+        "defaultLighting": "低饱和、强阴影、荷兰角",
+        "defaultScene": "悬疑惊悚典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（悬疑惊悚）、对手、配角",
+        "exampleScript": "【反转·压迫·氛围开场】\n冲突建立，角色对峙。\n[出场角色]：主角（悬疑惊悚）、对手、配角",
+        "exampleOutput": "[全局锁定] 低饱和、强阴影、荷兰角；密闭空间（电梯/仓库）；参考《看不见的客人》压缩版。角色全程一致！\n\n[0-3秒] 钩子镜头——0–30 秒：异常情境建立；中段：线索误导；最后 30 秒：颠覆性反转",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–30 秒：异常情境建立；中段：线索误导；最后 30 秒：颠覆性反转",
+            "dialogue": "信息密度高；每句台词或线索或误导；忌旁白解释"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——反转须在二刷时可追溯伏笔",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "悬疑惊悚分镜要点",
+            "content": "反转须在二刷时可追溯伏笔",
+            "items": [
+              "反转须在二刷时可追溯伏笔",
+              "密闭空间降成本",
+              "音效设计占比 40% 情绪"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-sci-fi-seedance",
+      "name": "科幻短片·Seedance 分镜",
+      "description": "未来·赛博·哲思竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Rocket",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "科幻短片"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：霓虹赛博、巨构建筑、全息 UI；参考《银翼杀手2049》《爱死机》单集…",
+      "categoryId": "film-short",
+      "subCategoryId": "sci-fi",
+      "pack": {
+        "genre": "科幻短片",
+        "visualRefs": [
+          "《爱，死亡和机器人》",
+          "《银翼杀手》",
+          "《流浪地球》短片"
+        ],
+        "defaultVisualRef": "《爱，死亡和机器人》",
+        "defaultLighting": "霓虹赛博、巨构建筑、全息 UI",
+        "defaultScene": "科幻短片典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（科幻短片）、对手、配角",
+        "exampleScript": "【未来·赛博·哲思开场】\n冲突建立，角色对峙。\n[出场角色]：主角（科幻短片）、对手、配角",
+        "exampleOutput": "[全局锁定] 霓虹赛博、巨构建筑、全息 UI；参考《银翼杀手2049》《爱死机》单集。角色全程一致！\n\n[0-3秒] 钩子镜头——0–30 秒：未来日常异常细节；中段：科技伦理冲突；结尾：开放式哲思",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–30 秒：未来日常异常细节；中段：科技伦理冲突；结尾：开放式哲思",
+            "dialogue": "科幻术语精简；AI/人类对话试探；忌设定说明书式旁白"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——世界观一页纸圣经",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "科幻短片分镜要点",
+            "content": "世界观一页纸圣经",
+            "items": [
+              "世界观一页纸圣经",
+              "VFX 镜头集中爆发于结尾",
+              "道具设计统一未来美学"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-horror-seedance",
+      "name": "恐怖短片·Seedance 分镜",
+      "description": "心理·超自然竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Ghost",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "恐怖短片"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：低光、广角畸变、单一光源；参考《遗传厄运》压迫感、《暗处》光影…",
+      "categoryId": "film-short",
+      "subCategoryId": "horror",
+      "pack": {
+        "genre": "恐怖短片",
+        "visualRefs": [
+          "《遗传厄运》",
+          "《关灯后》",
+          "《暗芝居》"
+        ],
+        "defaultVisualRef": "《遗传厄运》",
+        "defaultLighting": "低光、广角畸变、单一光源",
+        "defaultScene": "恐怖短片典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（恐怖短片）、对手、配角",
+        "exampleScript": "【心理·超自然开场】\n冲突建立，角色对峙。\n[出场角色]：主角（恐怖短片）、对手、配角",
+        "exampleOutput": "[全局锁定] 低光、广角畸变、单一光源；参考《遗传厄运》压迫感、《暗处》光影。角色全程一致！\n\n[0-3秒] 钩子镜头——0–15 秒：正常日常细微异常；中段：恐惧升级；结尾：开放或终极惊吓",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–15 秒：正常日常细微异常；中段：恐惧升级；结尾：开放或终极惊吓",
+            "dialogue": "极少对白；环境音与沉默；尖叫仅在高潮"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——心理恐怖 > 血腥",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "恐怖短片分镜要点",
+            "content": "心理恐怖 > 血腥",
+            "items": [
+              "心理恐怖 > 血腥",
+              "声音设计先行剪辑",
+              "18+ 分级标识"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-brand-micro-seedance",
+      "name": "品牌微电影·Seedance 分镜",
+      "description": "情感·叙事·植入竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Film",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "品牌微电影"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：电影质感、浅景深、品牌色点缀；参考苹果《误解》式叙事…",
+      "categoryId": "film-short",
+      "subCategoryId": "brand-micro",
+      "pack": {
+        "genre": "品牌微电影",
+        "visualRefs": [
+          "苹果《误解》",
+          "可口可乐圣诞广告",
+          "B 站品牌微电影"
+        ],
+        "defaultVisualRef": "苹果《误解》",
+        "defaultLighting": "电影质感、浅景深、品牌色点缀",
+        "defaultScene": "品牌微电影典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（品牌微电影）、对手、配角",
+        "exampleScript": "【情感·叙事·植入开场】\n冲突建立，角色对峙。\n[出场角色]：主角（品牌微电影）、对手、配角",
+        "exampleOutput": "[全局锁定] 电影质感、浅景深、品牌色点缀；参考苹果《误解》式叙事。角色全程一致！\n\n[0-3秒] 钩子镜头——0–15 秒：情感困境或温暖瞬间；中段：品牌自然出现；结尾：情感升华+品牌定版",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–15 秒：情感困境或温暖瞬间；中段：品牌自然出现；结尾：情感升华+品牌定版",
+            "dialogue": "生活化真实；品牌台词不超过 2 句；情感优先"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——品牌出现不超过总时长 15%",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "品牌微电影分镜要点",
+            "content": "品牌出现不超过总时长 15%",
+            "items": [
+              "品牌出现不超过总时长 15%",
+              "三版本：60s/3min/完整",
+              "广审字号前置"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-doc-hybrid-seedance",
+      "name": "纪实混合·Seedance 分镜",
+      "description": "真实·旁白·社会竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "BookOpen",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "纪实混合"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：手持纪实、自然光、字幕姓名条；参考《十三邀》片段、《人间世》质感…",
+      "categoryId": "film-short",
+      "subCategoryId": "doc-hybrid",
+      "pack": {
+        "genre": "纪实混合",
+        "visualRefs": [
+          "《人间世》",
+          "《十三邀》",
+          "《舌尖上的中国》"
+        ],
+        "defaultVisualRef": "《人间世》",
+        "defaultLighting": "手持纪实、自然光、字幕姓名条",
+        "defaultScene": "纪实混合典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（纪实混合）、对手、配角",
+        "exampleScript": "【真实·旁白·社会开场】\n冲突建立，角色对峙。\n[出场角色]：主角（纪实混合）、对手、配角",
+        "exampleOutput": "[全局锁定] 手持纪实、自然光、字幕姓名条；参考《十三邀》片段、《人间世》质感。角色全程一致！\n\n[0-3秒] 钩子镜头——0–30 秒：真实人物+核心问题；中段：跟拍或访谈；结尾：开放式或行动号召",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–30 秒：真实人物+核心问题；中段：跟拍或访谈；结尾：开放式或行动号召",
+            "dialogue": "真实访谈口语；旁白克制；忌煽情过度"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——被访者书面授权",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "纪实混合分镜要点",
+            "content": "被访者书面授权",
+            "items": [
+              "被访者书面授权",
+              "真实素材版权清晰",
+              "AI 补镜须标注"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-music-short-seedance",
+      "name": "音乐短片·Seedance 分镜",
+      "description": "视觉诗歌·MV 延伸竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Music",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "音乐短片"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：风格随曲风自由；实验色彩；参考 Beyoncé《Lemonade》视觉专辑段落…",
+      "categoryId": "film-short",
+      "subCategoryId": "music-short",
+      "pack": {
+        "genre": "音乐短片",
+        "visualRefs": [
+          "《Lemonade》",
+          "《七里香》",
+          "B 站音乐区"
+        ],
+        "defaultVisualRef": "《Lemonade》",
+        "defaultLighting": "风格随曲风自由",
+        "defaultScene": "音乐短片典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（音乐短片）、对手、配角",
+        "exampleScript": "【视觉诗歌·MV 延伸开场】\n冲突建立，角色对峙。\n[出场角色]：主角（音乐短片）、对手、配角",
+        "exampleOutput": "[全局锁定] 风格随曲风自由；实验色彩；参考 Beyoncé《Lemonade》视觉专辑段落。角色全程一致！\n\n[0-3秒] 钩子镜头——按曲结构：前奏意象建立→主歌叙事→副歌视觉爆发→间奏留白",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——按曲结构：前奏意象建立→主歌叙事→副歌视觉爆发→间奏留白",
+            "dialogue": "通常无对白；歌词即文本；诗意旁白可选"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——BPM 锁定后分镜",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "音乐短片分镜要点",
+            "content": "BPM 锁定后分镜",
+            "items": [
+              "BPM 锁定后分镜",
+              "副歌视觉预算 40%",
+              "音画同步 ≤3 帧"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-experimental-seedance",
+      "name": "实验影像·Seedance 分镜",
+      "description": "结构·观念·先锋竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Palette",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "实验影像"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：非常规画幅、叠印、故障美学；参考比尔·维奥拉、蔡明亮慢镜…",
+      "categoryId": "film-short",
+      "subCategoryId": "experimental",
+      "pack": {
+        "genre": "实验影像",
+        "visualRefs": [
+          "比尔·维奥拉",
+          "蔡明亮",
+          "鹿特丹电影节"
+        ],
+        "defaultVisualRef": "比尔·维奥拉",
+        "defaultLighting": "非常规画幅、叠印、故障美学",
+        "defaultScene": "实验影像典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（实验影像）、对手、配角",
+        "exampleScript": "【结构·观念·先锋开场】\n冲突建立，角色对峙。\n[出场角色]：主角（实验影像）、对手、配角",
+        "exampleOutput": "[全局锁定] 非常规画幅、叠印、故障美学；参考比尔·维奥拉、蔡明亮慢镜。角色全程一致！\n\n[0-3秒] 钩子镜头——无商业钩子；形式/观念即内容；观众预期管理在前 30 秒",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——无商业钩子；形式/观念即内容；观众预期管理在前 30 秒",
+            "dialogue": "碎片/多语言/无声；文本可屏幕显示"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——艺术家陈述 500 字+",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "实验影像分镜要点",
+            "content": "艺术家陈述 500 字+",
+            "items": [
+              "艺术家陈述 500 字+",
+              "放映格式与画廊协商",
+              "版权：引用素材须授权"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-romance-short-seedance",
+      "name": "爱情短片·Seedance 分镜",
+      "description": "都市·文艺·治愈竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Heart",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "爱情短片"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：暖调、浅景深、城市夜景；参考《爱在》系列压缩、韩国爱情短片…",
+      "categoryId": "film-short",
+      "subCategoryId": "romance-short",
+      "pack": {
+        "genre": "爱情短片",
+        "visualRefs": [
+          "《爱在黎明破晓前》",
+          "《情书》",
+          "《好久不见》"
+        ],
+        "defaultVisualRef": "《爱在黎明破晓前》",
+        "defaultLighting": "暖调、浅景深、城市夜景",
+        "defaultScene": "爱情短片典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（爱情短片）、对手、配角",
+        "exampleScript": "【都市·文艺·治愈开场】\n冲突建立，角色对峙。\n[出场角色]：主角（爱情短片）、对手、配角",
+        "exampleOutput": "[全局锁定] 暖调、浅景深、城市夜景；参考《爱在》系列压缩、韩国爱情短片。角色全程一致！\n\n[0-3秒] 钩子镜头——0–30 秒：邂逅或重逢瞬间；中段：情感试探；结尾：开放或治愈定格",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–30 秒：邂逅或重逢瞬间；中段：情感试探；结尾：开放或治愈定格",
+            "dialogue": "生活化细腻；潜台词多于表白；忌狗血台词"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——城市地标授权或虚化",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "爱情短片分镜要点",
+            "content": "城市地标授权或虚化",
+            "items": [
+              "城市地标授权或虚化",
+              "双人戏份光线匹配",
+              "配乐占情绪 50%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-social-topic-seedance",
+      "name": "社会议题·Seedance 分镜",
+      "description": "公益·反思·纪实感竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Target",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "社会议题"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：纪实+电影感结合；避免过度悲惨；参考联合国公益广告…",
+      "categoryId": "film-short",
+      "subCategoryId": "social-topic",
+      "pack": {
+        "genre": "社会议题",
+        "visualRefs": [
+          "联合国公益广告",
+          "《穹顶之下》",
+          "抖音公益"
+        ],
+        "defaultVisualRef": "联合国公益广告",
+        "defaultLighting": "纪实+电影感结合",
+        "defaultScene": "社会议题典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（社会议题）、对手、配角",
+        "exampleScript": "【公益·反思·纪实感开场】\n冲突建立，角色对峙。\n[出场角色]：主角（社会议题）、对手、配角",
+        "exampleOutput": "[全局锁定] 纪实+电影感结合；避免过度悲惨；参考联合国公益广告。角色全程一致！\n\n[0-3秒] 钩子镜头——0–30 秒：真实困境数据/画面；中段：人物故事；结尾：行动号召或反思留白",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–30 秒：真实困境数据/画面；中段：人物故事；结尾：行动号召或反思留白",
+            "dialogue": "真实人物访谈+克制旁白；忌道德绑架"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——事实与数据核查",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "社会议题分镜要点",
+            "content": "事实与数据核查",
+            "items": [
+              "事实与数据核查",
+              "受益人授权与尊严保护",
+              "企业 CSR 植入透明"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-action-chase-seedance",
+      "name": "动作追逐·Seedance 分镜",
+      "description": "追车·打斗·节奏竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sword",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "动作追逐"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：手持跟拍、低角度、速度线；参考《疾速追杀》走廊战、《疯狂的麦克斯》追车压缩…",
+      "categoryId": "film-short",
+      "subCategoryId": "action-chase",
+      "pack": {
+        "genre": "动作追逐",
+        "visualRefs": [
+          "《疾速追杀》",
+          "《疯狂的麦克斯4》",
+          "《叶问》"
+        ],
+        "defaultVisualRef": "《疾速追杀》",
+        "defaultLighting": "手持跟拍、低角度、速度线",
+        "defaultScene": "动作追逐典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（动作追逐）、对手、配角",
+        "exampleScript": "【追车·打斗·节奏开场】\n冲突建立，角色对峙。\n[出场角色]：主角（动作追逐）、对手、配角",
+        "exampleOutput": "[全局锁定] 手持跟拍、低角度、速度线；参考《疾速追杀》走廊战、《疯狂的麦克斯》追车压缩。角色全程一致！\n\n[0-3秒] 钩子镜头——0–5 秒：追逐/打斗爆发；每 20 秒升级障碍；结尾：高潮定格或悬念",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–5 秒：追逐/打斗爆发；每 20 秒升级障碍；结尾：高潮定格或悬念",
+            "dialogue": "极简；动作时刻无对白；喘息与撞击声为主"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——打斗 3–5 镜快切",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "动作追逐分镜要点",
+            "content": "打斗 3–5 镜快切",
+            "items": [
+              "打斗 3–5 镜快切",
+              "追车用素材+AI 合成",
+              "特技安全：AI 替代危险镜头"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-vfx-showcase-seedance",
+      "name": "视效展示·Seedance 分镜",
+      "description": "CG·合成·炫技竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sparkles",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "视效展示"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：高细节 CG、粒子、流体、破坏；参考 ILM Showreel、Beeple 日常…",
+      "categoryId": "film-short",
+      "subCategoryId": "vfx-showcase",
+      "pack": {
+        "genre": "视效展示",
+        "visualRefs": [
+          "ILM Showreel",
+          "Beeple",
+          "《流浪地球2》"
+        ],
+        "defaultVisualRef": "ILM Showreel",
+        "defaultLighting": "高细节 CG、粒子、流体、破坏",
+        "defaultScene": "视效展示典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（视效展示）、对手、配角",
+        "exampleScript": "【CG·合成·炫技开场】\n冲突建立，角色对峙。\n[出场角色]：主角（视效展示）、对手、配角",
+        "exampleOutput": "[全局锁定] 高细节 CG、粒子、流体、破坏；参考 ILM Showreel、Beeple 日常。角色全程一致！\n\n[0-3秒] 钩子镜头——0–10 秒：最强镜头；中段：技术难度递进；结尾：全片高潮+制作花絮可选",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–10 秒：最强镜头；中段：技术难度递进；结尾：全片高潮+制作花絮可选",
+            "dialogue": "通常无对白；技术字幕标注镜头难点"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——每镜头标注工具链",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "视效展示分镜要点",
+            "content": "每镜头标注工具链",
+            "items": [
+              "每镜头标注工具链",
+              "4K 交付标准",
+              "花絮增可信度"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-product-hero-seedance",
+      "name": "产品英雄片·Seedance 分镜",
+      "description": "微距·旋转·质感竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Megaphone",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "产品英雄片"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：黑场逆光、微距纹理、慢速旋转；参考 Apple 产品片、戴森气流视觉…",
+      "categoryId": "tvc",
+      "subCategoryId": "product-hero",
+      "pack": {
+        "genre": "产品英雄片",
+        "visualRefs": [
+          "Apple 产品片",
+          "戴森广告",
+          "小米发布会开场"
+        ],
+        "defaultVisualRef": "Apple 产品片",
+        "defaultLighting": "黑场逆光、微距纹理、慢速旋转",
+        "defaultScene": "产品英雄片典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（产品英雄片）、对手、配角",
+        "exampleScript": "【微距·旋转·质感开场】\n冲突建立，角色对峙。\n[出场角色]：主角（产品英雄片）、对手、配角",
+        "exampleOutput": "[全局锁定] 黑场逆光、微距纹理、慢速旋转；参考 Apple 产品片、戴森气流视觉。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：产品轮廓逆光 reveal；15 秒：核心卖点微距；结尾：Logo+Slogan 定版",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：产品轮廓逆光 reveal；15 秒：核心卖点微距；结尾：Logo+Slogan 定版",
+            "dialogue": "通常无对白；旁白简洁技术感；或纯音乐驱动"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——产品 CAD/实拍参考图前置",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "产品英雄片分镜要点",
+            "content": "产品 CAD/实拍参考图前置",
+            "items": [
+              "产品 CAD/实拍参考图前置",
+              "材质 HDR 环境贴图一致",
+              "多尺寸：16:9/1:1/9:16"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-brand-story-seedance",
+      "name": "品牌故事·Seedance 分镜",
+      "description": "情感·价值·叙事竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Film",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "品牌故事"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：电影宽银幕、自然光、人物访谈穿插；参考 Nike《Just Do It》叙事…",
+      "categoryId": "tvc",
+      "subCategoryId": "brand-story",
+      "pack": {
+        "genre": "品牌故事",
+        "visualRefs": [
+          "Nike《Just Do It》",
+          "可口可乐圣诞",
+          "华为品牌片"
+        ],
+        "defaultVisualRef": "Nike《Just Do It》",
+        "defaultLighting": "电影宽银幕、自然光、人物访谈穿插",
+        "defaultScene": "品牌故事典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（品牌故事）、对手、配角",
+        "exampleScript": "【情感·价值·叙事开场】\n冲突建立，角色对峙。\n[出场角色]：主角（品牌故事）、对手、配角",
+        "exampleOutput": "[全局锁定] 电影宽银幕、自然光、人物访谈穿插；参考 Nike《Just Do It》叙事。角色全程一致！\n\n[0-3秒] 钩子镜头——0–15 秒：品牌精神意象；中段：人物/历程；结尾：品牌使命+Logo",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–15 秒：品牌精神意象；中段：人物/历程；结尾：品牌使命+Logo",
+            "dialogue": "真诚克制；创始人原声优先；忌口号堆砌"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——品牌圣经前置",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "品牌故事分镜要点",
+            "content": "品牌圣经前置",
+            "items": [
+              "品牌圣经前置",
+              "人物授权与形象管理",
+              "三版本剪辑：60s/90s/完整"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-digital-human-seedance",
+      "name": "数字人代言·Seedance 分镜",
+      "description": "虚拟人·口播竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Sparkles",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "数字人代言"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：演播室/虚拟场景；口型同步精度 ≥95%；参考阿里喵酱、百度希壤…",
+      "categoryId": "tvc",
+      "subCategoryId": "digital-human",
+      "pack": {
+        "genre": "数字人代言",
+        "visualRefs": [
+          "阿里喵酱",
+          "柳夜熙",
+          "HeyGen 案例"
+        ],
+        "defaultVisualRef": "阿里喵酱",
+        "defaultLighting": "演播室/虚拟场景",
+        "defaultScene": "数字人代言典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（数字人代言）、对手、配角",
+        "exampleScript": "【虚拟人·口播开场】\n冲突建立，角色对峙。\n[出场角色]：主角（数字人代言）、对手、配角",
+        "exampleOutput": "[全局锁定] 演播室/虚拟场景；口型同步精度 ≥95%；参考阿里喵酱、百度希壤。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：数字人亮相+品牌问候；15 秒：产品利益点口播；结尾：CTA+品牌 Logo",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：数字人亮相+品牌问候；15 秒：产品利益点口播；结尾：CTA+品牌 Logo",
+            "dialogue": "专业口播；语速 180–220 字/分钟；多语言版本"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——数字人形象商用授权",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "数字人代言分镜要点",
+            "content": "数字人形象商用授权",
+            "items": [
+              "数字人形象商用授权",
+              "口型与中文多音字测试",
+              "实时 vs 预渲染交付选择"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-car-launch-seedance",
+      "name": "汽车上市·Seedance 分镜",
+      "description": "速度·光影·大片竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Rocket",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "汽车上市"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：低角度跟拍、反光漆、隧道光影；参考奔驰/宝马上市片…",
+      "categoryId": "tvc",
+      "subCategoryId": "car-launch",
+      "pack": {
+        "genre": "汽车上市",
+        "visualRefs": [
+          "奔驰 S 级上市",
+          "蔚来 ET5 发布",
+          "宝马《The Hire》"
+        ],
+        "defaultVisualRef": "奔驰 S 级上市",
+        "defaultLighting": "低角度跟拍、反光漆、隧道光影",
+        "defaultScene": "汽车上市典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（汽车上市）、对手、配角",
+        "exampleScript": "【速度·光影·大片开场】\n冲突建立，角色对峙。\n[出场角色]：主角（汽车上市）、对手、配角",
+        "exampleOutput": "[全局锁定] 低角度跟拍、反光漆、隧道光影；参考奔驰/宝马上市片。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：车灯亮起/引擎声；15 秒：公路驰骋剪影；结尾：车型名+价格",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：车灯亮起/引擎声；15 秒：公路驰骋剪影；结尾：车型名+价格",
+            "dialogue": "史诗旁白或纯音乐；技术参数字幕卡"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——车辆 CAD 与实拍结合",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "汽车上市分镜要点",
+            "content": "车辆 CAD 与实拍结合",
+            "items": [
+              "车辆 CAD 与实拍结合",
+              "道路拍摄许可",
+              "车标与车型授权"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-beauty-campaign-seedance",
+      "name": "美妆大片·Seedance 分镜",
+      "description": "肤质·色彩·模特竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Palette",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "美妆大片"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：柔光肤质、高饱和唇色、慢动作粉末；参考 Chanel/Dior 美妆片…",
+      "categoryId": "tvc",
+      "subCategoryId": "beauty-campaign",
+      "pack": {
+        "genre": "美妆大片",
+        "visualRefs": [
+          "Chanel 美妆",
+          "花西子",
+          "完美日记"
+        ],
+        "defaultVisualRef": "Chanel 美妆",
+        "defaultLighting": "柔光肤质、高饱和唇色、慢动作粉末",
+        "defaultScene": "美妆大片典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（美妆大片）、对手、配角",
+        "exampleScript": "【肤质·色彩·模特开场】\n冲突建立，角色对峙。\n[出场角色]：主角（美妆大片）、对手、配角",
+        "exampleOutput": "[全局锁定] 柔光肤质、高饱和唇色、慢动作粉末；参考 Chanel/Dior 美妆片。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：肤质微距/色彩爆发；15 秒：上妆过程美感；结尾：产品+功效合规文案",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：肤质微距/色彩爆发；15 秒：上妆过程美感；结尾：产品+功效合规文案",
+            "dialogue": "诗意旁白或无声；功效词须合规：改善而非治愈"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——功效宣称法务审核",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "美妆大片分镜要点",
+            "content": "功效宣称法务审核",
+            "items": [
+              "功效宣称法务审核",
+              "模特肖像权",
+              "色号与实物一致"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-food-beverage-seedance",
+      "name": "食品饮料·Seedance 分镜",
+      "description": "食欲·慢动作·蒸汽竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Target",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "食品饮料"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：暖调、微距、慢动作 120fps；参考可口可乐气泡、麦当劳汉堡组装…",
+      "categoryId": "tvc",
+      "subCategoryId": "food-beverage",
+      "pack": {
+        "genre": "食品饮料",
+        "visualRefs": [
+          "可口可乐",
+          "麦当劳",
+          "三只松鼠"
+        ],
+        "defaultVisualRef": "可口可乐",
+        "defaultLighting": "暖调、微距、慢动作 120fps",
+        "defaultScene": "食品饮料典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（食品饮料）、对手、配角",
+        "exampleScript": "【食欲·慢动作·蒸汽开场】\n冲突建立，角色对峙。\n[出场角色]：主角（食品饮料）、对手、配角",
+        "exampleOutput": "[全局锁定] 暖调、微距、慢动作 120fps；参考可口可乐气泡、麦当劳汉堡组装。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：浇注/拉丝/蒸汽；15 秒：第一口满足感；结尾：产品+购买渠道",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：浇注/拉丝/蒸汽；15 秒：第一口满足感；结尾：产品+购买渠道",
+            "dialogue": "轻快旁白或 ASMR；家庭场景温馨"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——食物造型师或 AI 替代",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "食品饮料分镜要点",
+            "content": "食物造型师或 AI 替代",
+            "items": [
+              "食物造型师或 AI 替代",
+              "包装版本与货架一致",
+              "热饮蒸汽后期增强"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-tech-launch-seedance",
+      "name": "科技发布·Seedance 分镜",
+      "description": "极简·未来·功能竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Wrench",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "科技发布"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：黑色背景、产品悬浮、UI 动效；参考 Apple Event、华为发布会…",
+      "categoryId": "tvc",
+      "subCategoryId": "tech-launch",
+      "pack": {
+        "genre": "科技发布",
+        "visualRefs": [
+          "Apple Event",
+          "华为 Mate 发布",
+          "小米 SU7 发布"
+        ],
+        "defaultVisualRef": "Apple Event",
+        "defaultLighting": "黑色背景、产品悬浮、UI 动效",
+        "defaultScene": "科技发布典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（科技发布）、对手、配角",
+        "exampleScript": "【极简·未来·功能开场】\n冲突建立，角色对峙。\n[出场角色]：主角（科技发布）、对手、配角",
+        "exampleOutput": "[全局锁定] 黑色背景、产品悬浮、UI 动效；参考 Apple Event、华为发布会。角色全程一致！\n\n[0-3秒] 钩子镜头——0–5 秒：产品轮廓+悬念；按功能点章节推进；结尾：价格+发售日",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–5 秒：产品轮廓+悬念；按功能点章节推进；结尾：价格+发售日",
+            "dialogue": "高管口播或旁白；技术参数精确；多语言同步"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——产品 CAD 1:1 精确",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "科技发布分镜要点",
+            "content": "产品 CAD 1:1 精确",
+            "items": [
+              "产品 CAD 1:1 精确",
+              "UI 录屏与实机一致",
+              "保密协议至发布日"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-festival-promo-seedance",
+      "name": "节日大促·Seedance 分镜",
+      "description": "促销·氛围·快节奏竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Megaphone",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "节日大促"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：高饱和节日色、快切、大字促销；参考天猫双 11 晚会短片…",
+      "categoryId": "tvc",
+      "subCategoryId": "festival-promo",
+      "pack": {
+        "genre": "节日大促",
+        "visualRefs": [
+          "天猫双 11",
+          "京东 618",
+          "抖音年货节"
+        ],
+        "defaultVisualRef": "天猫双 11",
+        "defaultLighting": "高饱和节日色、快切、大字促销",
+        "defaultScene": "节日大促典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（节日大促）、对手、配角",
+        "exampleScript": "【促销·氛围·快节奏开场】\n冲突建立，角色对峙。\n[出场角色]：主角（节日大促）、对手、配角",
+        "exampleOutput": "[全局锁定] 高饱和节日色、快切、大字促销；参考天猫双 11 晚会短片。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：节日元素+折扣信息；15 秒：爆款产品快切；结尾：限时紧迫感+CTA",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：节日元素+折扣信息；15 秒：爆款产品快切；结尾：限时紧迫感+CTA",
+            "dialogue": "促销口播快节奏；价格/折扣字幕突出；忌虚假宣传"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——促销规则法务审核",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "节日大促分镜要点",
+            "content": "促销规则法务审核",
+            "items": [
+              "促销规则法务审核",
+              "价格与活动页一致",
+              "节日素材版权（音乐/字体）"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-corporate-image-seedance",
+      "name": "企业形象·Seedance 分镜",
+      "description": "实力·文化·宏大竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Building",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "企业形象"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：航拍总部、生产线、全球地图；参考华为/中石油企业片…",
+      "categoryId": "tvc",
+      "subCategoryId": "corporate-image",
+      "pack": {
+        "genre": "企业形象",
+        "visualRefs": [
+          "华为企业片",
+          "中石油",
+          "比亚迪"
+        ],
+        "defaultVisualRef": "华为企业片",
+        "defaultLighting": "航拍总部、生产线、全球地图",
+        "defaultScene": "企业形象典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（企业形象）、对手、配角",
+        "exampleScript": "【实力·文化·宏大开场】\n冲突建立，角色对峙。\n[出场角色]：主角（企业形象）、对手、配角",
+        "exampleOutput": "[全局锁定] 航拍总部、生产线、全球地图；参考华为/中石油企业片。角色全程一致！\n\n[0-3秒] 钩子镜头——开篇：企业精神意象；中段：业务版图+人物；结尾：愿景+Logo",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——开篇：企业精神意象；中段：业务版图+人物；结尾：愿景+Logo",
+            "dialogue": "庄重旁白；数据准确；多语言版"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——数据与年报一致",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "企业形象分镜要点",
+            "content": "数据与年报一致",
+            "items": [
+              "数据与年报一致",
+              "涉密场景脱敏",
+              "领导出镜授权"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-luxury-premium-seedance",
+      "name": "奢侈品·Seedance 分镜",
+      "description": "高级·克制·质感竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Crown",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "奢侈品"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：低饱和、胶片颗粒、极简构图；参考 Chanel、Hermès 广告…",
+      "categoryId": "tvc",
+      "subCategoryId": "luxury-premium",
+      "pack": {
+        "genre": "奢侈品",
+        "visualRefs": [
+          "Chanel No.5",
+          "Hermès",
+          "Dior"
+        ],
+        "defaultVisualRef": "Chanel No.5",
+        "defaultLighting": "低饱和、胶片颗粒、极简构图",
+        "defaultScene": "奢侈品典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（奢侈品）、对手、配角",
+        "exampleScript": "【高级·克制·质感开场】\n冲突建立，角色对峙。\n[出场角色]：主角（奢侈品）、对手、配角",
+        "exampleOutput": "[全局锁定] 低饱和、胶片颗粒、极简构图；参考 Chanel、Hermès 广告。角色全程一致！\n\n[0-3秒] 钩子镜头——慢节奏；0–10 秒意象积累；结尾：Logo 极简定版；忌促销信息",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——慢节奏；0–10 秒意象积累；结尾：Logo 极简定版；忌促销信息",
+            "dialogue": "极少旁白；诗意或无声；忌价格提及"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——品牌视觉规范严格",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "奢侈品分镜要点",
+            "content": "品牌视觉规范严格",
+            "items": [
+              "品牌视觉规范严格",
+              "模特顶级肖像权",
+              "胶片质感调色"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-sports-marketing-seedance",
+      "name": "体育营销·Seedance 分镜",
+      "description": "热血·瞬间·代言竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Rocket",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "体育营销"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：慢动作汗水、体育场全景、品牌色球衣；参考 Nike 奥运 campaign…",
+      "categoryId": "tvc",
+      "subCategoryId": "sports-marketing",
+      "pack": {
+        "genre": "体育营销",
+        "visualRefs": [
+          "Nike 奥运",
+          "可口可乐世界杯",
+          "安踏冬奥"
+        ],
+        "defaultVisualRef": "Nike 奥运",
+        "defaultLighting": "慢动作汗水、体育场全景、品牌色球衣",
+        "defaultScene": "体育营销典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（体育营销）、对手、配角",
+        "exampleScript": "【热血·瞬间·代言开场】\n冲突建立，角色对峙。\n[出场角色]：主角（体育营销）、对手、配角",
+        "exampleOutput": "[全局锁定] 慢动作汗水、体育场全景、品牌色球衣；参考 Nike 奥运 campaign。角色全程一致！\n\n[0-3秒] 钩子镜头——0–3 秒：进球/冲刺瞬间；15 秒：运动员+产品；结尾：Just Do It 式口号",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–3 秒：进球/冲刺瞬间；15 秒：运动员+产品；结尾：Just Do It 式口号",
+            "dialogue": "励志旁白；运动员原声；口号简短有力"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——运动员肖像权合同",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "体育营销分镜要点",
+            "content": "运动员肖像权合同",
+            "items": [
+              "运动员肖像权合同",
+              "赛事 LOGO 授权",
+              "禁药关联审查"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-public-welfare-seedance",
+      "name": "公益广告·Seedance 分镜",
+      "description": "温暖·共鸣·社会责任竖屏分镜：基于钩子公式与视觉风格的 Seedance 2.0 提示词组装",
+      "icon": "Heart",
+      "tags": [
+        "Seedance",
+        "分镜 Skill",
+        "公益广告"
+      ],
+      "type": "seedance-pack",
+      "guide": "粘贴剧本后按镜头填写。视觉：真实温暖、避免过度悲惨；参考央视公益广告、联合国 PSA…",
+      "categoryId": "tvc",
+      "subCategoryId": "public-welfare",
+      "pack": {
+        "genre": "公益广告",
+        "visualRefs": [
+          "央视公益广告",
+          "联合国 PSA",
+          "支付宝蚂蚁森林"
+        ],
+        "defaultVisualRef": "央视公益广告",
+        "defaultLighting": "真实温暖、避免过度悲惨",
+        "defaultScene": "公益广告典型主场景",
+        "defaultSceneRef": "参考图三",
+        "defaultCharacters": "主角（公益广告）、对手、配角",
+        "exampleScript": "【温暖·共鸣·社会责任开场】\n冲突建立，角色对峙。\n[出场角色]：主角（公益广告）、对手、配角",
+        "exampleOutput": "[全局锁定] 真实温暖、避免过度悲惨；参考央视公益广告、联合国 PSA。角色全程一致！\n\n[0-3秒] 钩子镜头——0–15 秒：社会问题的真实瞬间；中段：改变的可能；结尾：行动号召+公益标识",
+        "defaultShots": [
+          {
+            "timeStart": 0,
+            "timeEnd": 3,
+            "content": "钩子镜头——0–15 秒：社会问题的真实瞬间；中段：改变的可能；结尾：行动号召+公益标识",
+            "dialogue": "克制感人；数据准确；行动号召明确"
+          },
+          {
+            "timeStart": 3,
+            "timeEnd": 8,
+            "content": "情绪递进——事实核查",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 8,
+            "timeEnd": 12,
+            "content": "冲突升级或反转铺垫",
+            "dialogue": ""
+          },
+          {
+            "timeStart": 12,
+            "timeEnd": 15,
+            "content": "集尾 cliffhanger 或悬念定格",
+            "dialogue": ""
+          }
+        ],
+        "genreTips": [
+          {
+            "title": "公益广告分镜要点",
+            "content": "事实核查",
+            "items": [
+              "事实核查",
+              "受益人尊严保护",
+              "公益标识规范"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

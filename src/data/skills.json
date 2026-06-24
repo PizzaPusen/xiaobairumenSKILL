@@ -1,0 +1,502 @@
+{
+  "skills": [
+    {
+      "id": "prompt-cinematic",
+      "name": "电影级提示词拼接器",
+      "description": "像搭积木一样拼出专业 MJ 提示词，中英对照，一键复制英文",
+      "icon": "Clapperboard",
+      "tags": ["提示词", "Midjourney"],
+      "toolboxCategory": "creation",
+      "scenario": "image",
+      "type": "prompt-builder",
+      "guide": "按影视分镜逻辑填写：景别 → 主体 → 环境 → 光线 → 镜头 → 风格。右侧实时预览 MJ V6 完整提示词，一键复制即可出图。",
+      "options": {
+        "styles": [
+          { "en": "Wong Kar-wai aesthetic", "zh": "王家卫美学" },
+          { "en": "Blade Runner 2049", "zh": "银翼杀手2049风格" },
+          { "en": "Anime cinematic", "zh": "动画电影感" },
+          { "en": "Neon Noir", "zh": "霓虹黑色电影" },
+          { "en": "Documentary realism", "zh": "纪录片写实" },
+          { "en": "Studio Ghibli", "zh": "吉卜力工作室风格" }
+        ],
+        "lighting": [
+          { "en": "Golden hour", "zh": "黄金时刻" },
+          { "en": "Neon lights", "zh": "霓虹灯光" },
+          { "en": "Chiaroscuro", "zh": "明暗对比" },
+          { "en": "Soft diffused", "zh": "柔和漫射光" },
+          { "en": "Hard backlight", "zh": "硬逆光" },
+          { "en": "Moonlit", "zh": "月光" }
+        ],
+        "lens": [
+          { "en": "35mm", "zh": "35mm 标准镜头" },
+          { "en": "50mm anamorphic", "zh": "50mm 变形宽银幕" },
+          { "en": "85mm portrait", "zh": "85mm 人像镜头" },
+          { "en": "Wide angle 24mm", "zh": "24mm 广角" },
+          { "en": "Macro close-up", "zh": "微距特写" }
+        ],
+        "aspectRatios": [
+          { "en": "16:9", "zh": "16:9 横屏" },
+          { "en": "2:1", "zh": "2:1 电影宽银幕" },
+          { "en": "4:3", "zh": "4:3 传统电视" },
+          { "en": "9:16", "zh": "9:16 竖屏" },
+          { "en": "1:1", "zh": "1:1 方形" }
+        ],
+        "artists": [
+          { "en": "Roger Deakins", "zh": "罗杰·迪金斯" },
+          { "en": "Emmanuel Lubezki", "zh": "艾曼努尔·卢贝兹基" },
+          { "en": "Christopher Doyle", "zh": "杜可风" },
+          { "en": "Hoyte van Hoytema", "zh": "霍伊特·范·霍特玛" }
+        ],
+        "shotScales": [
+          { "en": "extreme close-up", "zh": "大特写 ECU" },
+          { "en": "close-up", "zh": "特写 CU" },
+          { "en": "medium shot", "zh": "中景 MS" },
+          { "en": "wide shot", "zh": "全景 WS" },
+          { "en": "extreme wide shot", "zh": "大远景 EWS" }
+        ],
+        "cameraAngles": [
+          { "en": "eye level", "zh": "平视" },
+          { "en": "low angle", "zh": "仰拍" },
+          { "en": "high angle", "zh": "俯拍" },
+          { "en": "dutch angle", "zh": "荷兰角" },
+          { "en": "bird's eye view", "zh": "鸟瞰" },
+          { "en": "over-the-shoulder", "zh": "过肩" }
+        ],
+        "colorGrades": [
+          { "en": "teal and orange color grading", "zh": "青橙调色" },
+          { "en": "bleach bypass", "zh": "漂白旁路" },
+          { "en": "desaturated muted tones", "zh": "低饱和哑光" },
+          { "en": "warm vintage film look", "zh": "暖色复古胶片" },
+          { "en": "high contrast noir", "zh": "高反差黑色电影" },
+          { "en": "naturalistic color", "zh": "自然主义色彩" }
+        ],
+        "filmStocks": [
+          { "en": "shot on Kodak Vision3 500T", "zh": "柯达 500T 胶片感" },
+          { "en": "shot on Fujifilm Eterna", "zh": "富士 Eterna 胶片感" },
+          { "en": "digital cinema camera, ARRI Alexa look", "zh": "ARRI Alexa 数字电影感" },
+          { "en": "16mm grain, documentary texture", "zh": "16mm 颗粒纪录片质感" }
+        ]
+      },
+      "presets": {
+        "subjects": [
+          { "en": "a cinematic portrait of a woman", "zh": "电影感的女性人像" },
+          { "en": "an epic wide shot of a lone warrior", "zh": "孤独战士的史诗大远景" },
+          { "en": "a mysterious figure in a trench coat", "zh": "穿风衣的神秘人物" },
+          { "en": "a futuristic cityscape at dusk", "zh": "黄昏时分的未来都市" }
+        ],
+        "environments": [
+          { "en": "in a neon-lit Hong Kong alley at night", "zh": "夜晚霓虹闪烁的香港小巷" },
+          { "en": "on a misty mountain peak", "zh": "云雾缭绕的山巅" },
+          { "en": "inside an abandoned art deco theater", "zh": "废弃的装饰艺术风格剧院内" },
+          { "en": "in a rain-soaked cyberpunk street", "zh": "雨水浸润的赛博朋克街道" }
+        ]
+      }
+    },
+    {
+      "id": "storyboard-template",
+      "name": "视频分镜模板速填",
+      "description": "用影视分镜语言快速生成 AI 视频提示词，中英对照",
+      "icon": "Film",
+      "tags": ["分镜", "视频", "Runway"],
+      "toolboxCategory": "creation",
+      "scenario": "video",
+      "type": "template-fill",
+      "guide": "选项均为中英对照，预览区上方中文帮助理解，下方英文可直接复制到 Runway / Pika。",
+      "template": "A {shot_type} of {subject} in {location}, {mood} atmosphere, {lighting} lighting, camera movement: {movement}, shot on {lens}, cinematic color grading, --ar {aspect}",
+      "templateZh": "一段{shot_type}，主体为{subject}，场景在{location}，{mood}氛围，{lighting}光线，镜头运动：{movement}，使用{lens}拍摄，电影级调色，画幅比 {aspect}",
+      "placeholders": [
+        {
+          "key": "shot_type",
+          "label": "景别",
+          "type": "select",
+          "options": [
+            { "en": "wide establishing shot", "zh": "大远景建立镜头" },
+            { "en": "medium shot", "zh": "中景" },
+            { "en": "close-up", "zh": "特写" },
+            { "en": "extreme close-up", "zh": "大特写" },
+            { "en": "over-the-shoulder shot", "zh": "过肩镜头" }
+          ],
+          "default": "wide establishing shot"
+        },
+        {
+          "key": "subject",
+          "label": "主体",
+          "type": "text",
+          "default": "a lone traveler",
+          "defaultZh": "孤独的旅人",
+          "placeholderZh": "孤独的旅人"
+        },
+        {
+          "key": "location",
+          "label": "场景",
+          "type": "text",
+          "default": "a rain-soaked Tokyo alley at night",
+          "defaultZh": "雨夜东京小巷",
+          "placeholderZh": "雨夜东京小巷"
+        },
+        {
+          "key": "mood",
+          "label": "情绪",
+          "type": "select",
+          "options": [
+            { "en": "melancholic", "zh": "忧郁" },
+            { "en": "tense", "zh": "紧张" },
+            { "en": "dreamy", "zh": "梦幻" },
+            { "en": "epic", "zh": "史诗" },
+            { "en": "intimate", "zh": "亲密" }
+          ],
+          "default": "melancholic"
+        },
+        {
+          "key": "lighting",
+          "label": "光线",
+          "type": "select",
+          "options": [
+            { "en": "neon reflections", "zh": "霓虹反射" },
+            { "en": "soft golden hour", "zh": "柔和黄金时刻" },
+            { "en": "harsh fluorescent", "zh": "刺眼荧光灯" },
+            { "en": "candlelit", "zh": "烛光" },
+            { "en": "moonlight", "zh": "月光" }
+          ],
+          "default": "neon reflections"
+        },
+        {
+          "key": "movement",
+          "label": "镜头运动",
+          "type": "select",
+          "options": [
+            { "en": "slow dolly in", "zh": "缓慢推镜" },
+            { "en": "tracking shot", "zh": "跟拍" },
+            { "en": "static", "zh": "固定机位" },
+            { "en": "crane up", "zh": "摇臂上升" },
+            { "en": "handheld", "zh": "手持拍摄" }
+          ],
+          "default": "slow dolly in"
+        },
+        {
+          "key": "lens",
+          "label": "焦段",
+          "type": "select",
+          "options": [
+            { "en": "35mm anamorphic", "zh": "35mm 变形宽银幕" },
+            { "en": "50mm", "zh": "50mm 标准" },
+            { "en": "85mm", "zh": "85mm 人像" },
+            { "en": "24mm wide", "zh": "24mm 广角" }
+          ],
+          "default": "35mm anamorphic"
+        },
+        {
+          "key": "aspect",
+          "label": "画幅比",
+          "type": "select",
+          "options": [
+            { "en": "16:9", "zh": "16:9 横屏" },
+            { "en": "2.39:1", "zh": "2.39:1 宽银幕" },
+            { "en": "9:16", "zh": "9:16 竖屏" },
+            { "en": "4:3", "zh": "4:3 传统" }
+          ],
+          "default": "16:9"
+        }
+      ]
+    },
+    {
+      "id": "video-duration-calc",
+      "name": "AI 视频时长/帧率换算器",
+      "description": "秒数、帧率、总帧数一键互算，规划分镜节奏",
+      "icon": "Calculator",
+      "tags": ["换算", "帧率", "分镜"],
+      "toolboxCategory": "utility",
+      "scenario": "production",
+      "type": "calculator",
+      "guide": "输入任意两项即可推算第三项，适合规划 AI 视频片段长度与导出设置。",
+      "calculator": {
+        "formula": "duration-frames",
+        "description": "视频时长 = 总帧数 ÷ 帧率。修改任意字段，其余自动计算。",
+        "fields": [
+          { "key": "duration", "label": "时长（秒）", "type": "number", "unit": "s", "default": 5 },
+          { "key": "fps", "label": "帧率", "type": "select", "options": ["24", "25", "30", "60"], "default": "24" },
+          { "key": "frames", "label": "总帧数", "type": "number", "unit": "frames", "default": 120 }
+        ]
+      }
+    },
+    {
+      "id": "ai-glossary",
+      "name": "AI 名词百科",
+      "description": "AIGC 生成、影视、AI Agent 三大类核心术语，中英对照，可搜索速查",
+      "icon": "BookMarked",
+      "tags": ["名词", "百科", "速查"],
+      "toolboxCategory": "reference",
+      "type": "glossary",
+      "guide": "按三大分类浏览，点击词条展开详细解释。涵盖从扩散模型到分镜钩子、从 RAG 到多 Agent 的常用概念，适合新手入门与团队统一术语。"
+    },
+    {
+      "id": "mj-params-cheatsheet",
+      "name": "MJ 参数速查卡",
+      "description": "Midjourney 常用参数含义与示例速查",
+      "icon": "BookOpen",
+      "tags": ["Midjourney", "速查"],
+      "toolboxCategory": "reference",
+      "type": "info-card",
+      "guide": "收藏本页，生成图像时对照参数含义，快速调整出图效果。",
+      "sections": [
+        {
+          "title": "画幅与质量",
+          "content": "控制输出尺寸与细节程度的核心参数。",
+          "items": [
+            "--ar 16:9：设置画幅比 / Set aspect ratio，影视常用 16:9 或 2:1",
+            "--q 1：质量 Quality（0.25/0.5/1/2），越高细节越多但更慢",
+            "--s 250：风格化程度 Stylize（0-1000），越高越艺术化",
+            "--style raw：减少 MJ 默认美化，更接近写实 / More photorealistic"
+          ],
+          "tip": "概念设计阶段用 --s 100 保持可控，最终出图再提高到 250-400。"
+        },
+        {
+          "title": "一致性与参考",
+          "content": "保持角色/风格一致性的常用参数。",
+          "items": [
+            "--cref URL：角色参考 Character Reference，保持面部一致",
+            "--sref URL：风格参考 Style Reference，锁定画面美学",
+            "--cw 0-100：角色参考权重 Character Weight，默认 100",
+            "--sw 0-1000：风格参考权重 Style Weight"
+          ]
+        },
+        {
+          "title": "版本与模式",
+          "content": "选择模型版本影响整体画风。",
+          "items": [
+            "--v 6.1：当前主流版本 Version，综合最佳",
+            "--niji 6：二次元/动漫专用 Anime model",
+            "--tile：无缝纹理贴图 Seamless texture",
+            "--no text, watermark：排除不需要的元素 / Exclude elements"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sd-negative-prompts",
+      "name": "SD 常用负向提示词库",
+      "description": "Stable Diffusion 负向提示词模板，中英对照，一键复制英文",
+      "icon": "Wand2",
+      "tags": ["Stable Diffusion", "负向提示词"],
+      "toolboxCategory": "creation",
+      "scenario": "image",
+      "type": "template-fill",
+      "guide": "选项均为中英对照，预览区上方中文帮助理解含义，下方英文复制到 SD / ComfyUI。",
+      "template": "{base_negative}, {quality_issues}, {anatomy_issues}, {style_exclude}",
+      "templateZh": "{base_negative}，{quality_issues}，{anatomy_issues}，{style_exclude}",
+      "placeholders": [
+        {
+          "key": "base_negative",
+          "label": "基础排除",
+          "type": "select",
+          "options": [
+            { "en": "low quality, worst quality, blurry", "zh": "低质量、模糊" },
+            { "en": "ugly, deformed, disfigured", "zh": "丑陋、变形" },
+            { "en": "text, watermark, signature, logo", "zh": "文字、水印、签名" }
+          ],
+          "default": "low quality, worst quality, blurry"
+        },
+        {
+          "key": "quality_issues",
+          "label": "画质问题",
+          "type": "select",
+          "options": [
+            { "en": "jpeg artifacts, noise, grain", "zh": "JPEG 噪点、颗粒" },
+            { "en": "overexposed, underexposed", "zh": "过曝、欠曝" },
+            { "en": "out of focus, motion blur", "zh": "失焦、运动模糊" }
+          ],
+          "default": "jpeg artifacts, noise, grain"
+        },
+        {
+          "key": "anatomy_issues",
+          "label": "人体/结构",
+          "type": "select",
+          "options": [
+            { "en": "bad anatomy, extra fingers, missing limbs", "zh": "人体结构错误、多指" },
+            { "en": "distorted face, asymmetrical eyes", "zh": "面部扭曲、眼睛不对称" },
+            { "en": "floating limbs, disconnected body parts", "zh": "肢体漂浮、断裂" }
+          ],
+          "default": "bad anatomy, extra fingers, missing limbs"
+        },
+        {
+          "key": "style_exclude",
+          "label": "风格排除",
+          "type": "select",
+          "options": [
+            { "en": "cartoon, anime", "zh": "卡通、动漫（写实图用）" },
+            { "en": "photorealistic", "zh": "照片写实（插画用）" },
+            { "en": "3d render, cgi", "zh": "3D 渲染（照片风格用）" },
+            { "en": "none", "zh": "不排除" }
+          ],
+          "default": "3d render, cgi"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-lighting",
+      "name": "影视灯光风格速查",
+      "description": "经典布光术语与 AI 提示词中英对照",
+      "icon": "Lightbulb",
+      "tags": ["灯光", "影视", "速查"],
+      "toolboxCategory": "reference",
+      "type": "info-card",
+      "guide": "根据场景情绪选择布光风格，中英文提示词均可直接用于生成。",
+      "sections": [
+        {
+          "title": "三点布光 Three-Point Lighting",
+          "content": "最经典的影视布光方案，适合人物访谈与剧情片。",
+          "items": [
+            "主光 Key Light：主要光源，通常 45° 侧前方",
+            "辅光 Fill Light：填充阴影，降低对比",
+            "轮廓光 Rim/Back Light：勾勒人物边缘，分离背景"
+          ],
+          "promptZh": "三点布光，柔和主光，淡淡轮廓光，电影感人像",
+          "promptEn": "three-point lighting, soft key light, subtle rim light, cinematic portrait"
+        },
+        {
+          "title": "高反差明暗 Chiaroscuro",
+          "content": "卡拉瓦乔式强对比光影，悬疑、黑色电影常用。",
+          "items": [
+            "大面积深色阴影 + 局部高光",
+            "适合侦探、惊悚、宗教题材",
+            "常用侧光或顶光制造戏剧性"
+          ],
+          "promptZh": "明暗对比光，戏剧性阴影，黑色电影，伦勃朗光",
+          "promptEn": "chiaroscuro lighting, dramatic shadows, film noir, Rembrandt lighting"
+        },
+        {
+          "title": "自然光 Natural / Golden Hour",
+          "content": "纪录片与文艺片常用，真实感强。",
+          "items": [
+            "Golden hour 黄金时刻：日出日落前后暖色柔光",
+            "Blue hour 蓝调时刻：日落后冷色调氛围",
+            "Overcast 阴天：柔光，无硬阴影"
+          ],
+          "promptZh": "黄金时刻阳光，暖色调，柔和自然光，魔法时刻",
+          "promptEn": "golden hour sunlight, warm tones, soft natural lighting, magic hour"
+        },
+        {
+          "title": "霓虹与赛博 Neon / Cyberpunk",
+          "content": "科幻、都市夜景的标志性光感。",
+          "items": [
+            "多色霓虹反射在湿润地面",
+            "粉紫 + 青蓝对比色",
+            "适合《银翼杀手》风格场景"
+          ],
+          "promptZh": "霓虹灯光，赛博朋克氛围，雨水反射，品红与青色光线",
+          "promptEn": "neon lights, cyberpunk atmosphere, rain reflections, magenta and cyan lighting"
+        }
+      ]
+    },
+    {
+      "id": "brief-to-storyboard",
+      "name": "创意简报生成分镜表",
+      "description": "从客户 Brief 快速生成标准分镜表模板",
+      "icon": "LayoutTemplate",
+      "tags": ["分镜表", "制片", "模板"],
+      "toolboxCategory": "creation",
+      "scenario": "production",
+      "type": "template-fill",
+      "guide": "填写项目基本信息，生成可打印的分镜表框架，用于团队沟通与 AI 生成对齐。",
+      "template": "PROJECT: {project_name}\nCLIENT: {client}\nDURATION: {duration}\nSTYLE: {visual_style}\n\nSHOT LIST:\n01 | ECU | {shot1_subject} | {shot1_action} | {shot1_duration}s\n02 | MS  | {shot2_subject} | {shot2_action} | {shot2_duration}s\n03 | WS  | {shot3_subject} | {shot3_action} | {shot3_duration}s\n04 | CU  | {shot4_subject} | {shot4_action} | {shot4_duration}s\n\nNOTES: {notes}",
+      "placeholders": [
+        { "key": "project_name", "label": "项目名称", "type": "text", "default": "品牌宣传片 AIGC 版" },
+        { "key": "client", "label": "客户/品牌", "type": "text", "default": "某科技公司" },
+        { "key": "duration", "label": "总时长", "type": "text", "default": "60s" },
+        { "key": "visual_style", "label": "视觉风格", "type": "select", "options": [
+          { "en": "电影感写实", "zh": "电影感写实" },
+          { "en": "赛博朋克", "zh": "赛博朋克" },
+          { "en": "极简商业", "zh": "极简商业" },
+          { "en": "复古胶片", "zh": "复古胶片" },
+          { "en": "动画风", "zh": "动画风" }
+        ], "default": "电影感写实" },
+        { "key": "shot1_subject", "label": "镜头1-主体", "type": "text", "default": "产品特写" },
+        { "key": "shot1_action", "label": "镜头1-动作", "type": "text", "default": "缓慢旋转展示" },
+        { "key": "shot1_duration", "label": "镜头1-时长", "type": "text", "default": "3" },
+        { "key": "shot2_subject", "label": "镜头2-主体", "type": "text", "default": "人物使用场景" },
+        { "key": "shot2_action", "label": "镜头2-动作", "type": "text", "default": "自然操作产品" },
+        { "key": "shot2_duration", "label": "镜头2-时长", "type": "text", "default": "5" },
+        { "key": "shot3_subject", "label": "镜头3-主体", "type": "text", "default": "城市天际线" },
+        { "key": "shot3_action", "label": "镜头3-动作", "type": "text", "default": "航拍推进" },
+        { "key": "shot3_duration", "label": "镜头3-时长", "type": "text", "default": "4" },
+        { "key": "shot4_subject", "label": "镜头4-主体", "type": "text", "default": "品牌 Logo" },
+        { "key": "shot4_action", "label": "镜头4-动作", "type": "text", "default": "淡入定格" },
+        { "key": "shot4_duration", "label": "镜头4-时长", "type": "text", "default": "2" },
+        { "key": "notes", "label": "备注", "type": "text", "default": "所有镜头需保持色调统一，配乐待定" }
+      ]
+    },
+    {
+      "id": "daily-practice",
+      "name": "每日 AIGC 练习任务生成器",
+      "description": "随机生成今日练习任务，养成 AIGC 创作习惯",
+      "icon": "Target",
+      "tags": ["练习", "每日任务"],
+      "toolboxCategory": "practice",
+      "scenario": "image",
+      "type": "template-fill",
+      "guide": "点击「随机生成」获取今日练习任务，完成后可复制记录到学习笔记。",
+      "template": "📅 今日 AIGC 练习任务\n\n🎯 任务类型：{task_type}\n⏱ 建议时长：{duration}\n📝 练习内容：{task_content}\n🎨 使用工具：{tool}\n✅ 完成标准：{criteria}\n\n💡 今日灵感关键词：{keyword}",
+      "placeholders": [
+        { "key": "task_type", "label": "任务类型", "type": "select", "options": [
+          { "en": "提示词练习", "zh": "提示词练习" },
+          { "en": "风格模仿", "zh": "风格模仿" },
+          { "en": "分镜设计", "zh": "分镜设计" },
+          { "en": "角色一致性", "zh": "角色一致性" },
+          { "en": "视频节奏", "zh": "视频节奏" },
+          { "en": "音效搭配", "zh": "音效搭配" }
+        ], "default": "提示词练习" },
+        { "key": "duration", "label": "建议时长", "type": "select", "options": [
+          { "en": "15 分钟", "zh": "15 分钟" },
+          { "en": "30 分钟", "zh": "30 分钟" },
+          { "en": "45 分钟", "zh": "45 分钟" },
+          { "en": "1 小时", "zh": "1 小时" }
+        ], "default": "30 分钟" },
+        { "key": "task_content", "label": "练习内容", "type": "text", "default": "用 3 种不同光线描述同一场景" },
+        { "key": "tool", "label": "使用工具", "type": "select", "options": [
+          { "en": "Midjourney", "zh": "Midjourney" },
+          { "en": "Stable Diffusion", "zh": "Stable Diffusion" },
+          { "en": "Runway", "zh": "Runway" },
+          { "en": "Pika", "zh": "Pika" },
+          { "en": "Suno", "zh": "Suno" },
+          { "en": "任意工具", "zh": "任意工具" }
+        ], "default": "Midjourney" },
+        { "key": "criteria", "label": "完成标准", "type": "text", "default": "产出 3 张可对比的图并记录参数差异" },
+        { "key": "keyword", "label": "灵感关键词", "type": "text", "default": "雨夜霓虹" }
+      ],
+      "practice": {
+        "tasks": [
+          "用 3 种不同光线描述同一场景",
+          "复刻一张电影海报的色调与构图",
+          "为一个 15 秒广告写 4 镜分镜",
+          "用负向提示词修复一张常见问题图",
+          "尝试同一提示词在 2 个平台出图对比",
+          "设计一个可复用的角色三视图",
+          "用 MJ --sref 锁定一种视觉风格连出 4 张",
+          "为一段视频写配套音效需求清单"
+        ],
+        "categories": ["提示词练习", "风格模仿", "分镜设计", "角色一致性", "视频节奏", "音效搭配"],
+        "durations": ["15 分钟", "30 分钟", "45 分钟", "1 小时"]
+      }
+    },
+    {
+      "id": "resolution-calc",
+      "name": "分辨率/画幅比换算器",
+      "description": "根据画幅比计算像素尺寸，适配各平台输出",
+      "icon": "Palette",
+      "tags": ["分辨率", "画幅比"],
+      "toolboxCategory": "utility",
+      "scenario": "production",
+      "type": "calculator",
+      "guide": "选择目标画幅比和基准边长，自动计算另一边的像素值。",
+      "calculator": {
+        "formula": "resolution-aspect",
+        "description": "根据画幅比与宽度（或高度）计算对应像素尺寸。",
+        "fields": [
+          { "key": "aspect", "label": "画幅比", "type": "select", "options": ["16:9", "9:16", "4:3", "2.39:1", "1:1"], "default": "16:9" },
+          { "key": "baseEdge", "label": "基准边（width=宽度 / height=高度）", "type": "select", "options": ["width", "height"], "default": "width" },
+          { "key": "pixels", "label": "基准像素", "type": "number", "unit": "px", "default": 1920 }
+        ]
+      }
+    }
+  ]
+}

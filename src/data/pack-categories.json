@@ -1,0 +1,1388 @@
+{
+  "categories": [
+    {
+      "id": "ai-animation",
+      "name": "AI 动画",
+      "subtitle": "2D / 3D / 漫剧 / MV",
+      "description": "以角色表演、风格化画面和节奏切镜为核心的动画类 AIGC 制片，适合番剧片段、AI 漫剧连载与音乐视觉化。",
+      "icon": "Sparkles",
+      "accent": "cyan",
+      "overview": {
+        "positioning": "用 AI 完成角色设定、分镜、关键帧与动效合成，替代部分传统二维/三维动画流水线，适合网文 IP 改编与品牌动画广告。",
+        "typicalDuration": "单集 1–3 分钟；番剧片段 15–90 秒；MV 3–5 分钟",
+        "deliveryCycle": "极速流 1–3 天/集；精品连载 15–30 天/季（5–10 人团队）",
+        "teamSize": "编剧 1 + 分镜 1 + AIGC 操作 2–3 + 后期 1（精品项目可加导演与配乐）",
+        "clientProfile": "MCN、网文平台、动漫工作室、教育品牌、游戏宣发"
+      },
+      "sop": [
+        {
+          "phase": "1. 立项与风格锚定",
+          "duration": "1–2 天",
+          "tasks": [
+            "拆解剧本/歌词为节拍表",
+            "确定画风（日系/国风/3D写实/扁平）",
+            "建立角色三视图与色板",
+            "选定对标影片定调"
+          ],
+          "deliverables": [
+            "风格板 Mood Board",
+            "角色设定表",
+            "镜头比例与画幅确认（16:9 / 9:16）"
+          ],
+          "tools": [
+            "Midjourney / Flux",
+            "Figma / PureRef",
+            "Notion 制片表"
+          ]
+        },
+        {
+          "phase": "2. 分镜与资产库",
+          "duration": "2–4 天",
+          "tasks": [
+            "绘制文字分镜+镜头号",
+            "训练或绑定角色 LoRA / 参考图库",
+            "场景概念图批量出图并筛选",
+            "标注切组规则与口型需求"
+          ],
+          "deliverables": [
+            "分镜脚本",
+            "角色/场景参考图包",
+            "Seedance/Kling 提示词模板"
+          ],
+          "tools": [
+            "Storyboarder",
+            "LoRA 训练",
+            "本网站 Skill 分镜组装器"
+          ]
+        },
+        {
+          "phase": "3. AI 生成与动效",
+          "duration": "3–10 天",
+          "tasks": [
+            "按镜头批量文生图/图生视频",
+            "对口型与表演镜头做二次挑选",
+            "补间、慢动作、粒子等后期",
+            "音效与配乐初剪"
+          ],
+          "deliverables": [
+            "镜头粗剪版",
+            "动效层",
+            "配音干音"
+          ],
+          "tools": [
+            "Seedance 2.0",
+            "Kling",
+            "Runway",
+            "SkyReels",
+            "After Effects"
+          ]
+        },
+        {
+          "phase": "4. 合成交付",
+          "duration": "1–3 天",
+          "tasks": [
+            "调色统一（胶片/赛璐璐/3D 渲染风）",
+            "字幕与片头片尾",
+            "多平台导出（B站/抖音/小红书）",
+            "客户修改轮次归档"
+          ],
+          "deliverables": [
+            "成片 MP4（4K/1080P）",
+            "无字幕版",
+            "工程文件（按合同约定）"
+          ],
+          "tools": [
+            "DaVinci Resolve",
+            "Premiere",
+            "剪映专业版"
+          ]
+        }
+      ],
+      "pricing": {
+        "source": "综合 AIGC SDM《2026 AI漫剧定制价格表》、腾讯云/网易行业报告、国内动画工作室公开报价区间（2026 Q2）",
+        "updatedAt": "2026-Q2",
+        "note": "2026 年算力成本较 2025 年上涨约 10–15%，签约建议预留 15% 浮动预算；海外发行收益约为国内 3–5 倍但平台抽佣与投流成本高。",
+        "tiers": [
+          {
+            "level": "极速流（量产测试）",
+            "range": "30–80 元/集",
+            "perUnit": "1–2 分钟/集",
+            "cycle": "24–72 小时/集",
+            "scenario": "矩阵号铺量、剧情号冷启动、分镜验证",
+            "includes": [
+              "模板画风",
+              "AI 配音",
+              "基础字幕",
+              "1 轮修改"
+            ]
+          },
+          {
+            "level": "经济版",
+            "range": "500–1,500 元/分钟",
+            "cycle": "7–10 天",
+            "scenario": "个人 IP、知识付费配套动画、预算有限品牌片",
+            "includes": [
+              "2D 平面动画",
+              "基础口型",
+              "标准 BGM",
+              "1–2 轮修改"
+            ]
+          },
+          {
+            "level": "标准版",
+            "range": "1,500–3,000 元/分钟",
+            "cycle": "10–12 天",
+            "scenario": "品牌宣传动画、企业内训、课程片头",
+            "includes": [
+              "高清 2D 或入门 3D",
+              "精细表演",
+              "专业配音",
+              "3–4 轮修改"
+            ]
+          },
+          {
+            "level": "专业版 / 精品连载",
+            "range": "3,000–5,000 元/分钟；或 500–2,000 元/集（含团队）",
+            "perUnit": "连载 20–60 集",
+            "cycle": "12–15 天/批次",
+            "scenario": "网文 IP 改编、商业定制漫剧、出海项目",
+            "includes": [
+              "高精度 3D/国风定制",
+              "电影级音效",
+              "专属制片",
+              "5–6 轮修改"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "type": "2D 动画分钟片",
+            "ai": "500–3,000 元/分钟",
+            "traditional": "8,000–30,000 元/分钟",
+            "saving": "约 70–90%"
+          },
+          {
+            "type": "AI 漫剧单集",
+            "ai": "50–2,000 元/集",
+            "traditional": "5,000–20,000 元/集",
+            "saving": "约 80–95%"
+          }
+        ]
+      },
+      "references": [
+        {
+          "title": "《雾山五行》",
+          "type": "国风动作动画",
+          "why": "水墨+硬核实打节奏，适合学 AI 国风战斗镜头调度",
+          "platform": "B站",
+          "year": "2020"
+        },
+        {
+          "title": "《凡人修仙传》年番",
+          "type": "3D 修仙连载",
+          "why": "长线角色一致性与场景复用逻辑，适合 AI 连载制片",
+          "platform": "腾讯视频",
+          "year": "2023"
+        },
+        {
+          "title": "《时光代理人》",
+          "type": "都市悬疑动画",
+          "why": "情绪表演与正反打节奏，适合 AI 剧情向分镜",
+          "platform": "B站",
+          "year": "2021"
+        },
+        {
+          "title": "《孤勇者》MV 视觉叙事",
+          "type": "音乐视觉",
+          "why": "歌词画面化与情绪递进，适合 MV 类 AI 制片",
+          "platform": "全网",
+          "year": "2021"
+        },
+        {
+          "title": "《中国奇谭》",
+          "type": "风格实验短片",
+          "why": "多风格单元剧，适合测试不同 LoRA 画风",
+          "platform": "B站",
+          "year": "2023"
+        }
+      ],
+      "toolStack": [
+        {
+          "category": "概念与角色",
+          "tools": [
+            "Midjourney v6.1",
+            "Flux 2 Pro",
+            "LoRA 训练"
+          ],
+          "purpose": "角色三视图、画风统一"
+        },
+        {
+          "category": "分镜与视频",
+          "tools": [
+            "Seedance 2.0",
+            "Kling 3.0",
+            "Runway Gen-3",
+            "海螺 Hailuo"
+          ],
+          "purpose": "图生视频、表演镜头"
+        },
+        {
+          "category": "口型与表演",
+          "tools": [
+            "SkyReels",
+            "HeyGen",
+            "SadTalker"
+          ],
+          "purpose": "口型同步、微表情"
+        },
+        {
+          "category": "后期",
+          "tools": [
+            "DaVinci",
+            "AE",
+            "剪映"
+          ],
+          "purpose": "调色、合成、字幕"
+        }
+      ],
+      "hasSubCategories": true
+    },
+    {
+      "id": "film-short",
+      "name": "影视短片",
+      "subtitle": "作者电影 / 悬疑 / 科幻 / 实验",
+      "description": "强调作者表达、镜头语言与叙事完整性的短片创作，时长通常 3–15 分钟，面向影展、品牌故事与导演作品集。",
+      "icon": "Clapperboard",
+      "accent": "violet",
+      "overview": {
+        "positioning": "以电影工业分镜逻辑组织 AI 生成，追求统一摄影机语言与影调，而非量产爽感。",
+        "typicalDuration": "3–15 分钟；预告片 30–90 秒",
+        "deliveryCycle": "7–21 天（视镜头数与写实度）",
+        "teamSize": "导演 1 + 摄影指导（AIGC）1 + 后期 1 + 可选配乐",
+        "clientProfile": "独立导演、广告创意热店、影展参赛团队、品牌内容部门"
+      },
+      "sop": [
+        {
+          "phase": "1. 剧本与导演阐述",
+          "duration": "2–3 天",
+          "tasks": [
+            "完成短片文学剧本或梗概",
+            "写导演阐述（主题/影调/节奏）",
+            "确定画幅比与放映平台",
+            "列出关键情绪转折点"
+          ],
+          "deliverables": [
+            "剧本定稿",
+            "导演阐述 PDF",
+            "参考片单 5–10 部"
+          ],
+          "tools": [
+            "Final Draft / 飞书文档",
+            "PureRef",
+            "Letterboxd"
+          ]
+        },
+        {
+          "phase": "2. 分镜与镜头表",
+          "duration": "3–5 天",
+          "tasks": [
+            "绘制分镜（景别/运镜/时长）",
+            "制作镜头表 Shot List",
+            "确定光影方案（高调/低调/霓虹）",
+            "场景概念与色彩脚本"
+          ],
+          "deliverables": [
+            "分镜本",
+            "镜头表",
+            "色彩脚本 Color Script"
+          ],
+          "tools": [
+            "Storyboarder",
+            "Shot Designer",
+            "本网站工具箱分镜模板"
+          ]
+        },
+        {
+          "phase": "3. 视觉生成",
+          "duration": "5–12 天",
+          "tasks": [
+            "按镜头批量生成关键帧",
+            "图生视频控制运镜",
+            "表演镜头人工筛选（宁缺毋滥）",
+            "补拍空镜与转场"
+          ],
+          "deliverables": [
+            "镜头素材库",
+            "选片表",
+            "粗剪时间线"
+          ],
+          "tools": [
+            "Veo 3.1",
+            "Seedance 2.0",
+            "Kling",
+            "MJ --sref 风格锁定"
+          ]
+        },
+        {
+          "phase": "4. 声音与终混",
+          "duration": "2–4 天",
+          "tasks": [
+            "环境声设计",
+            "配乐（原创或授权）",
+            "对白 ADR（如有）",
+            "调色锁定与 DCP/网络导出"
+          ],
+          "deliverables": [
+            "终混 WAV",
+            "调色成片",
+            "影展投递版（如有）"
+          ],
+          "tools": [
+            "Pro Tools / Audition",
+            "DaVinci",
+            "Suno / Udio"
+          ]
+        }
+      ],
+      "pricing": {
+        "source": "万影节拍等平台 2026 动画短片/微电影报价；AIGC SDM 品牌短片区间；国内独立短片外包市场（2026 Q2）",
+        "updatedAt": "2026-Q2",
+        "note": "按秒计价为主：普通 80–150 元/秒，精品 120–200 元/秒；3 分钟精品短片约 2.2–3.6 万元。电影节参赛需额外预算字幕与 DCP。",
+        "tiers": [
+          {
+            "level": "实验 / 学生级",
+            "range": "3,000–8,000 元/条",
+            "perUnit": "1–3 分钟",
+            "cycle": "5–7 天",
+            "scenario": "作品集、影展初选、内部提案",
+            "includes": [
+              "单一画风",
+              "基础调色",
+              "免费配乐库",
+              "2 轮修改"
+            ]
+          },
+          {
+            "level": "标准作者短片",
+            "range": "80–150 元/秒",
+            "perUnit": "3–8 分钟",
+            "cycle": "10–15 天",
+            "scenario": "线上发布、品牌故事、导演 Demo",
+            "includes": [
+              "分镜+镜头表",
+              "统一影调",
+              "原创或定制配乐",
+              "3 轮修改"
+            ]
+          },
+          {
+            "level": "精品 / 参赛级",
+            "range": "120–250 元/秒",
+            "perUnit": "5–15 分钟",
+            "cycle": "15–21 天",
+            "scenario": "金爵/ FIRST / 金鸡短片单元、高端品牌片",
+            "includes": [
+              "导演全程把控",
+              "声音设计",
+              "电影级调色",
+              "5 轮修改+投递协助"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "type": "3 分钟剧情短片",
+            "ai": "1.5–4.5 万元",
+            "traditional": "8–25 万元",
+            "saving": "约 60–80%"
+          },
+          {
+            "type": "30 秒概念预告",
+            "ai": "4,000–1.2 万元",
+            "traditional": "3–8 万元",
+            "saving": "约 50–70%"
+          }
+        ]
+      },
+      "references": [
+        {
+          "title": "《漫游玛莉亚》",
+          "type": "科幻情感短片",
+          "why": "AI 生成质感与真人情感结合的案例风向",
+          "platform": "影展",
+          "year": "2024"
+        },
+        {
+          "title": "《银翼杀手 2049》片段",
+          "type": "科幻摄影",
+          "why": "霓虹雨夜、雾霭体积光，AI 科幻短片黄金参考",
+          "year": "2017"
+        },
+        {
+          "title": "《寄生虫》室内戏",
+          "type": "悬疑剧情",
+          "why": "空间调度与阶级隐喻构图",
+          "year": "2019"
+        },
+        {
+          "title": "《头号玩家》预告",
+          "type": "流行文化科幻",
+          "why": "快节奏剪辑与复古未来美学",
+          "year": "2018"
+        },
+        {
+          "title": "FIRST 青年电影展入围短片",
+          "type": "独立电影",
+          "why": "作者表达与低成本完整叙事标杆",
+          "platform": "FIRST",
+          "year": "2024"
+        }
+      ],
+      "toolStack": [
+        {
+          "category": "摄影机语言",
+          "tools": [
+            "Veo 3.1",
+            "Seedance 2.0",
+            "Runway"
+          ],
+          "purpose": "运镜、景别、节奏"
+        },
+        {
+          "category": "风格锁定",
+          "tools": [
+            "MJ --sref",
+            "Flux",
+            "LUT 预设"
+          ],
+          "purpose": "全片影调一致"
+        },
+        {
+          "category": "声音",
+          "tools": [
+            "Suno",
+            "ElevenLabs",
+            "Freesound"
+          ],
+          "purpose": "配乐、环境声"
+        },
+        {
+          "category": "交付",
+          "tools": [
+            "DaVinci",
+            "Premiere"
+          ],
+          "purpose": "调色、字幕、多画幅导出"
+        }
+      ],
+      "hasSubCategories": true
+    },
+    {
+      "id": "domestic-drama",
+      "name": "国内 AI 真人短剧",
+      "subtitle": "抖音 / 微信 / 小程序",
+      "accent": "teal",
+      "icon": "Video",
+      "hasSubCategories": true,
+      "description": "面向国内抖音、快手、微信短剧小程序的竖屏付费剧。含古装权谋、都市逆袭、甜宠、重生四大题材，各有独立钩子公式与报价。",
+      "overview": {
+        "positioning": "复刻国内微短剧「3秒钩子、集尾悬念」模型，平台审核与分账逻辑对齐国内生态。",
+        "typicalDuration": "单集 1–3 分钟；一季 60–100 集",
+        "deliveryCycle": "量产 1–3 天/集；精品 3–5 天/集",
+        "teamSize": "编剧 1–2 + 分镜 1 + AIGC 2–4 + 剪辑 1–2",
+        "clientProfile": "国内短剧平台、网文 IP 方、MCN、投流团队"
+      },
+      "sop": [
+        {
+          "phase": "1. 选题与钩子设计",
+          "duration": "1–2 天",
+          "tasks": [
+            "拆解爽点公式（逆袭/重生/豪门）",
+            "写前 3 秒视觉钩子",
+            "设计集尾悬念",
+            "对齐平台审核红线"
+          ],
+          "deliverables": [
+            "分集大纲",
+            "钩子表",
+            "人设卡（主角/反派/CP）"
+          ],
+          "tools": [
+            "短剧编剧模板",
+            "飞书多维表",
+            "平台热度榜"
+          ]
+        },
+        {
+          "phase": "2. 角色与场景锁定",
+          "duration": "2–3 天",
+          "tasks": [
+            "主角定妆参考图（面部一致）",
+            "服装/发型跨集锁定",
+            "主场景 3–5 个复用",
+            "建立参考图顺序规则"
+          ],
+          "deliverables": [
+            "角色参考图包",
+            "场景库",
+            "Seedance 全局锁定模板"
+          ],
+          "tools": [
+            "MJ --cref",
+            "Flux 人像",
+            "本网站 Seedance Skill"
+          ]
+        },
+        {
+          "phase": "3. 分镜量产",
+          "duration": "按日更节奏滚动",
+          "tasks": [
+            "每集 4–8 镜头组",
+            "正反打对话合组",
+            "爽点镜头特写加重",
+            "批量生成+人工选片"
+          ],
+          "deliverables": [
+            "单集粗剪",
+            "对白字幕",
+            "投流切片 3 条/集"
+          ],
+          "tools": [
+            "Seedance 2.0",
+            "Kling",
+            "剪映",
+            "本网站分镜组装器"
+          ]
+        },
+        {
+          "phase": "4. 投流与迭代",
+          "duration": "持续",
+          "tasks": [
+            "ROI 监测（完播/付费率）",
+            "根据数据改钩子",
+            "A/B 测试封面与前 3 秒",
+            "合规与版权自查"
+          ],
+          "deliverables": [
+            "投流素材包",
+            "数据周报",
+            "下集脚本调整"
+          ],
+          "tools": [
+            "巨量引擎",
+            "快手磁力",
+            "微信短剧后台"
+          ]
+        }
+      ],
+      "pricing": {
+        "source": "国内短剧制作公司报价、AIGC SDM 漫剧/短剧区间、平台分账模式调研（2026 Q2）",
+        "updatedAt": "2026-Q2",
+        "note": "国内 AI 真人短剧：量产 50–200 元/集，标准 300–800 元/集，精品 800–3,000 元/集。收入来自 IAP 充值与广告分账。",
+        "tiers": [
+          {
+            "level": "量产投流型",
+            "range": "50–200 元/集",
+            "perUnit": "1–2 分钟",
+            "cycle": "24–48 小时",
+            "scenario": "矩阵号、测剧、快速验证题材",
+            "includes": [
+              "模板角色",
+              "AI 配音",
+              "基础字幕",
+              "无精细修脸"
+            ]
+          },
+          {
+            "level": "标准竖屏剧",
+            "range": "300–800 元/集",
+            "cycle": "2–3 天/集",
+            "scenario": "小程序短剧、中小平台分账",
+            "includes": [
+              "角色锁定",
+              "4–6 镜/集",
+              "2 轮修改",
+              "投流切片"
+            ]
+          },
+          {
+            "level": "精品付费剧",
+            "range": "800–3,000 元/集",
+            "perUnit": "60–100 集/季",
+            "cycle": "3–5 天/集",
+            "scenario": "头部平台、S 级 IP、品牌定制",
+            "includes": [
+              "精细人脸",
+              "原创配乐",
+              "导演监制",
+              "4 轮修改"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "type": "竖屏短剧单集",
+            "ai": "50–3,000 元",
+            "traditional": "3,000–15,000 元",
+            "saving": "约 70–95%"
+          },
+          {
+            "type": "整季 80 集",
+            "ai": "4–24 万元",
+            "traditional": "80–300 万元",
+            "saving": "约 70–90%"
+          }
+        ]
+      },
+      "references": [
+        {
+          "title": "《甄嬛传》对峙戏",
+          "type": "古装权谋",
+          "why": "正反打节奏与台词张力，古装 AI 短剧必研",
+          "platform": "优酷",
+          "year": "2011"
+        },
+        {
+          "title": "《狂飙》都市戏",
+          "type": "现代悬疑",
+          "why": "冷峻都市质感与人物压迫感",
+          "platform": "爱奇艺",
+          "year": "2023"
+        },
+        {
+          "title": "《重生之xxx》类竖屏剧",
+          "type": "爽剧模板",
+          "why": "钩子密度与集尾悬念商业结构",
+          "platform": "抖音短剧",
+          "year": "2025"
+        },
+        {
+          "title": "《三十而已》情感对峙",
+          "type": "都市情感",
+          "why": "女性受众情感共鸣镜头",
+          "platform": "腾讯视频",
+          "year": "2020"
+        },
+        {
+          "title": "《隐秘的角落》",
+          "type": "悬疑",
+          "why": "情绪特写与压抑影调",
+          "platform": "爱奇艺",
+          "year": "2020"
+        }
+      ],
+      "toolStack": [
+        {
+          "category": "真人感生成",
+          "tools": [
+            "Seedance 2.0",
+            "Kling 3.0",
+            "海螺",
+            "HeyGen"
+          ],
+          "purpose": "表演、口型、一致脸"
+        },
+        {
+          "category": "角色锁定",
+          "tools": [
+            "MJ --cref",
+            "InstantID",
+            "LoRA"
+          ],
+          "purpose": "跨集同脸"
+        },
+        {
+          "category": "配音",
+          "tools": [
+            "Fish Audio",
+            "火山语音",
+            "Azure TTS"
+          ],
+          "purpose": "多角色配音"
+        },
+        {
+          "category": "量产",
+          "tools": [
+            "剪映",
+            "CapCut",
+            "本网站 Skill"
+          ],
+          "purpose": "批量剪辑、字幕"
+        }
+      ]
+    },
+    {
+      "id": "overseas-drama",
+      "name": "海外短剧",
+      "subtitle": "ReelShort / DramaBox / 出海",
+      "accent": "emerald",
+      "icon": "Globe",
+      "hasSubCategories": true,
+      "description": "面向北美、东南亚、拉美的竖屏付费短剧。英文配音、西方面孔、9:16 竖屏，复刻 ReelShort/DramaBox 商业模型。",
+      "overview": {
+        "positioning": "国内制作 + 海外发行，美元 IAP 定价 $0.5–3/集，收益约为国内 3–5 倍，需适配 Meta/TikTok 投流与多语言字幕。",
+        "typicalDuration": "单集 1–2 分钟；一季 60–80 集",
+        "deliveryCycle": "出海量产 48h/集；精品 3–4 天/集",
+        "teamSize": "英文编剧 1 + 本地化 1 + AIGC 2 + 投流 1",
+        "clientProfile": "出海短剧平台、网文出海方、跨境 MCN"
+      },
+      "sop": [
+        {
+          "phase": "1. 本地化选题",
+          "duration": "2–3 天",
+          "tasks": [
+            "选欧美验证品类（CEO/狼人/契约）",
+            "英文梗概与钩子表",
+            "目标市场（NA/SEA/LATAM）"
+          ],
+          "deliverables": [
+            "英文大纲",
+            "钩子表",
+            "市场定位"
+          ],
+          "tools": [
+            "ReelShort 榜单",
+            "DramaBox 热榜"
+          ]
+        },
+        {
+          "phase": "2. _cast 与视觉",
+          "duration": "2–3 天",
+          "tasks": [
+            "西方面孔定妆",
+            "场景欧美化",
+            "建立英文配音声线"
+          ],
+          "deliverables": [
+            "角色包",
+            "场景库",
+            "配音样本"
+          ],
+          "tools": [
+            "MJ 西方面孔",
+            "ElevenLabs",
+            "HeyGen"
+          ]
+        },
+        {
+          "phase": "3. 量产与字幕",
+          "duration": "滚动",
+          "tasks": [
+            "9:16 竖屏生成",
+            "英文字幕 + 西/葡语可选",
+            "每集结尾 cliffhanger"
+          ],
+          "deliverables": [
+            "单集成片",
+            "多语言字幕包"
+          ],
+          "tools": [
+            "Seedance",
+            "Kling",
+            "剪映国际版"
+          ]
+        },
+        {
+          "phase": "4. 出海投流",
+          "duration": "持续",
+          "tasks": [
+            "Meta/TikTok 素材测试",
+            "CPI/ROI 监测",
+            "付费墙位置优化（Ep6–8）"
+          ],
+          "deliverables": [
+            "投流素材",
+            "美元收入报表"
+          ],
+          "tools": [
+            "Meta Ads",
+            "TikTok Ads"
+          ]
+        }
+      ],
+      "pricing": {
+        "source": "AIGC SDM 2026 出海报告、ReelShort/DramaBox 分账调研（2026 Q2）",
+        "updatedAt": "2026-Q2",
+        "note": "国内制作 300–1,500 元/集；海外 IAP $0.5–3/集。平台抽佣 45–60%，美国 CPI $0.8–2.5。",
+        "tiers": [
+          {
+            "level": "出海量产",
+            "range": "300–600 元/集",
+            "perUnit": "1–2 分钟",
+            "cycle": "48h",
+            "scenario": "ReelShort 测剧",
+            "includes": [
+              "英文配音",
+              "9:16",
+              "基础字幕"
+            ]
+          },
+          {
+            "level": "精品出海",
+            "range": "800–1,500 元/集",
+            "cycle": "3–4 天",
+            "scenario": "DramaBox 头部",
+            "includes": [
+              "西方面孔锁定",
+              "多语言字幕",
+              "4 轮修改"
+            ]
+          },
+          {
+            "level": "整季打包",
+            "range": "8–25 万元",
+            "perUnit": "60–80 集",
+            "cycle": "45–60 天",
+            "scenario": "S 级出海剧",
+            "includes": [
+              "全剧本地化",
+              "投流素材包"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "type": "单集制作",
+            "ai": "300–1,500 元",
+            "traditional": "5,000–20,000 元",
+            "saving": "约 70–90%"
+          },
+          {
+            "type": "美元 IAP",
+            "ai": "$0.5–3/集",
+            "traditional": "N/A",
+            "saving": "出海增量"
+          }
+        ]
+      },
+      "references": [
+        {
+          "title": "ReelShort 霸总系列",
+          "type": "出海爆款",
+          "why": "身份反转模板",
+          "platform": "ReelShort"
+        },
+        {
+          "title": "DramaBox 狼人系列",
+          "type": "奇幻出海",
+          "why": "Alpha/Mate 品类",
+          "platform": "DramaBox"
+        },
+        {
+          "title": "《Succession》",
+          "type": "豪门质感",
+          "why": "视觉参考",
+          "platform": "HBO"
+        }
+      ],
+      "toolStack": [
+        {
+          "category": "英文配音",
+          "tools": [
+            "ElevenLabs",
+            "Fish Audio EN"
+          ],
+          "purpose": "多角色英文"
+        },
+        {
+          "category": "西方面孔",
+          "tools": [
+            "HeyGen",
+            "MJ 欧美脸"
+          ],
+          "purpose": "角色一致"
+        },
+        {
+          "category": "视频",
+          "tools": [
+            "Seedance 2.0",
+            "Kling"
+          ],
+          "purpose": "竖屏表演"
+        },
+        {
+          "category": "投流",
+          "tools": [
+            "Meta Ads",
+            "TikTok Ads"
+          ],
+          "purpose": "出海获客"
+        }
+      ]
+    },
+    {
+      "id": "tvc",
+      "name": "TVC",
+      "subtitle": "品牌片 / 产品英雄片 / 数字人代言",
+      "description": "面向电视、线下大屏与品牌官网的高端商业影像，强调品牌调性、产品质感与电影级摄影。",
+      "icon": "Tv",
+      "accent": "amber",
+      "overview": {
+        "positioning": "用 AIGC 替代部分棚拍与外景，保留创意总监与美术指导把关，交付可用于投放的品牌资产。",
+        "typicalDuration": "15–60 秒（TVC）；3–5 分钟品牌故事片",
+        "deliveryCycle": "7–21 天",
+        "teamSize": "创意 1 + 美术 1 + AIGC 2 + 后期 1 + 客户经理 1",
+        "clientProfile": "品牌市场部、4A 代理、新消费 DTC、汽车/3C/美妆"
+      },
+      "sop": [
+        {
+          "phase": "1. Brief 与创意",
+          "duration": "2–4 天",
+          "tasks": [
+            "解读品牌 Brief（受众/卖点/禁忌）",
+            "创意概念 3 案竞标",
+            "确定主视觉与 Slogan 画面",
+            "法务审核脚本"
+          ],
+          "deliverables": [
+            "创意阐述",
+            "故事板",
+            "预算表"
+          ],
+          "tools": [
+            "Keynote",
+            "Miro",
+            "参考片 Mood Board"
+          ]
+        },
+        {
+          "phase": "2. 美术与产品",
+          "duration": "3–5 天",
+          "tasks": [
+            "产品精修参考（外观绝对一致）",
+            "场景概念（棚拍/外景/超现实）",
+            "模特/数字人选型",
+            "灯光方案预演"
+          ],
+          "deliverables": [
+            "产品白底/场景合成素材",
+            "数字人设定",
+            "灯光示意图"
+          ],
+          "tools": [
+            "Photoshop",
+            "MJ/Flux 产品",
+            "本网站 TVC Skill"
+          ]
+        },
+        {
+          "phase": "3. 拍摄级生成",
+          "duration": "5–10 天",
+          "tasks": [
+            "按 Storyboard 逐镜生成",
+            "产品镜头 360° 与微距",
+            "慢动作与流体特效",
+            "导演选片会"
+          ],
+          "deliverables": [
+            "镜头精选库",
+            "粗剪 AV 版"
+          ],
+          "tools": [
+            "Veo 3.1",
+            "Runway",
+            "Seedance",
+            "Houdini AI 插件"
+          ]
+        },
+        {
+          "phase": "4. 精修与交付",
+          "duration": "3–5 天",
+          "tasks": [
+            "电影级调色",
+            "Logo 定版与法务字卡",
+            "多尺寸导出（16:9/9:16/1:1）",
+            "媒体投放物料包"
+          ],
+          "deliverables": [
+            "30s/15s/6s 剪辑版",
+            "4K ProRes",
+            "投放报告模板"
+          ],
+          "tools": [
+            "DaVinci",
+            "After Effects",
+            "媒资 DAM 系统"
+          ]
+        }
+      ],
+      "pricing": {
+        "source": "万影节拍 2026 TVC/品牌片按秒报价；AIGC SDM 品牌宣传片区间；4A 代理外包市场价（2026 Q2）",
+        "updatedAt": "2026-Q2",
+        "note": "TVC 按秒计价是行业主流：普通 120–200 元/秒，精品 250–350 元/秒。30 秒精品 TVC 约 7.5–10.5 万元。含明星/实拍补拍另计。",
+        "tiers": [
+          {
+            "level": "Social TVC（15–30s）",
+            "range": "3,000–10,000 元/条",
+            "cycle": "3–7 天",
+            "scenario": "新媒体投放、电商大促开场",
+            "includes": [
+              "单场景",
+              "产品特写",
+              "模板配乐",
+              "2 轮修改"
+            ]
+          },
+          {
+            "level": "标准品牌 TVC",
+            "range": "120–200 元/秒",
+            "perUnit": "15–60 秒",
+            "cycle": "7–14 天",
+            "scenario": "电视+网络、品牌日常投放",
+            "includes": [
+              "创意+分镜",
+              "产品一致",
+              "原创配乐",
+              "3–4 轮修改"
+            ]
+          },
+          {
+            "level": "精品 / 电影级",
+            "range": "250–350 元/秒",
+            "perUnit": "30–120 秒",
+            "cycle": "14–21 天",
+            "scenario": "品牌上市、汽车/奢侈品、国际化",
+            "includes": [
+              "导演监制",
+              "电影调色",
+              "多尺寸交付",
+              "5 轮修改+版权清册"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "type": "30 秒 TVC",
+            "ai": "3.6–10.5 万元",
+            "traditional": "20–80 万元",
+            "saving": "约 50–80%"
+          },
+          {
+            "type": "3 分钟品牌片",
+            "ai": "8–25 万元",
+            "traditional": "50–150 万元",
+            "saving": "约 60–80%"
+          }
+        ]
+      },
+      "references": [
+        {
+          "title": "Apple 产品广告系列",
+          "type": "产品英雄片",
+          "why": "极简棚拍、产品绝对一致、灯光教科书",
+          "year": "持续"
+        },
+        {
+          "title": "Nike《You Can't Stop Us》",
+          "type": "体育品牌",
+          "why": "节奏剪辑与情绪共鸣",
+          "year": "2020"
+        },
+        {
+          "title": "奔驰×王家卫风格广告",
+          "type": "汽车情感",
+          "why": "东方美学与品牌调性融合",
+          "year": "2024"
+        },
+        {
+          "title": "《奥本海默》预告片质感",
+          "type": "电影级广告",
+          "why": "胶片颗粒、IMAX 画幅参考",
+          "year": "2023"
+        },
+        {
+          "title": "华为品牌片系列",
+          "type": "科技国货",
+          "why": "民族品牌叙事与视觉宏大感",
+          "platform": "央视+网络",
+          "year": "2024"
+        }
+      ],
+      "toolStack": [
+        {
+          "category": "产品镜头",
+          "tools": [
+            "MJ/Flux 产品",
+            "Veo 3.1",
+            "Runway"
+          ],
+          "purpose": "微距、旋转、质感"
+        },
+        {
+          "category": "数字人",
+          "tools": [
+            "HeyGen",
+            "硅基智能",
+            "万兴播爆"
+          ],
+          "purpose": "代言人、多语言"
+        },
+        {
+          "category": "精修",
+          "tools": [
+            "DaVinci",
+            "AE",
+            "Photoshop"
+          ],
+          "purpose": "调色、合成、Logo"
+        },
+        {
+          "category": "协作",
+          "tools": [
+            "Frame.io",
+            "飞书",
+            "本网站 Skill"
+          ],
+          "purpose": "客户审片、版本管理"
+        }
+      ],
+      "hasSubCategories": true
+    },
+    {
+      "id": "ecommerce-ad",
+      "name": "电商广告",
+      "subtitle": "主图视频 / 千川素材 / 直播切片",
+      "description": "面向淘宝、京东、抖音电商与千川投流的高频短视频素材，强调转化、测款与批量交付。",
+      "icon": "ShoppingCart",
+      "accent": "rose",
+      "overview": {
+        "positioning": "模板化+半定制结合，按「条」计费，追求 24 小时内交付与 ROI 可测。",
+        "typicalDuration": "15–60 秒/条；直播切片 30–90 秒",
+        "deliveryCycle": "2 小时–2 天/条（视等级）",
+        "teamSize": "运营 1 + AIGC 1–2 + 剪辑 1（批量团队可流水线）",
+        "clientProfile": "淘宝/抖音商家、品牌电商部、代运营、MCN 带货"
+      },
+      "sop": [
+        {
+          "phase": "1. 商品与卖点",
+          "duration": "2–4 小时",
+          "tasks": [
+            "提取 3 个核心卖点",
+            "对标竞品爆款素材",
+            "确定人群画像",
+            "选择模板风格（测评/剧情/口播）"
+          ],
+          "deliverables": [
+            "卖点表",
+            "脚本 15/30/60 秒版",
+            "参考链接"
+          ],
+          "tools": [
+            "蝉妈妈",
+            "考古加",
+            "千川素材榜"
+          ]
+        },
+        {
+          "phase": "2. 素材生成",
+          "duration": "2–8 小时",
+          "tasks": [
+            "产品图精修入模",
+            "AI 场景/模特展示",
+            "口播数字人或画外音",
+            "字幕与贴纸"
+          ],
+          "deliverables": [
+            "粗剪 3 版",
+            "封面帧 3 张"
+          ],
+          "tools": [
+            "剪映/CapCut AI",
+            "Kling",
+            "可灵",
+            "本网站电商 Skill"
+          ]
+        },
+        {
+          "phase": "3. 投流测试",
+          "duration": "1–3 天",
+          "tasks": [
+            "千川/磁力金牛开户素材",
+            "A/B 测 3–5 条",
+            "看 CTR/CVR/ROI",
+            "爆款裂变二次剪辑"
+          ],
+          "deliverables": [
+            "投流数据截图",
+            "爆款二次素材 5 条"
+          ],
+          "tools": [
+            "巨量千川",
+            "快手磁力金牛",
+            "腾讯广告"
+          ]
+        },
+        {
+          "phase": "4. 批量复制",
+          "duration": "持续",
+          "tasks": [
+            "爆款脚本结构复用",
+            "换卖点/换 BGM/换开头 3 秒",
+            "建立素材资产库",
+            "周度复盘"
+          ],
+          "deliverables": [
+            "周度 10–50 条素材",
+            "素材标签库"
+          ],
+          "tools": [
+            "飞书表格",
+            "NAS 素材库",
+            "剪映模板"
+          ]
+        }
+      ],
+      "pricing": {
+        "source": "AIGC SDM《2026 AI广告视频全品类报价》；平台代运营公开价；千川服务商 2026 Q2 报价单",
+        "updatedAt": "2026-Q2",
+        "note": "电商素材按条计价为主。10 条以上通常 8–9 折，20 条以上 6.5–7 折。L1 模板化 200–500 元，L3 全定制可达 3,000–10,000 元/条。",
+        "tiers": [
+          {
+            "level": "L1 模板化主图视频",
+            "range": "200–500 元/条",
+            "perUnit": "15–30 秒",
+            "cycle": "2–4 小时",
+            "scenario": "淘宝详情页、SKU 主图视频",
+            "includes": [
+              "剪映模板",
+              "产品图替换",
+              "基础字幕",
+              "1 轮修改"
+            ]
+          },
+          {
+            "level": "L2 半定制信息流",
+            "range": "800–2,500 元/条",
+            "perUnit": "30–60 秒",
+            "cycle": "6–12 小时",
+            "scenario": "千川/磁力金牛投流、种草",
+            "includes": [
+              "MJ+视频动态化",
+              "品牌色调整",
+              "2 轮修改"
+            ]
+          },
+          {
+            "level": "L3 全定制大促片",
+            "range": "3,000–10,000 元/条",
+            "perUnit": "30–60 秒",
+            "cycle": "2–5 天",
+            "scenario": "618/双11 主会场、品牌旗舰店",
+            "includes": [
+              "原创创意",
+              "多模型协同",
+              "专业配音配乐",
+              "4–5 轮修改"
+            ]
+          },
+          {
+            "level": "按秒计价（精品）",
+            "range": "80–150 元/秒",
+            "cycle": "1–3 天",
+            "scenario": "高客单价、美妆、3C 详解",
+            "includes": [
+              "产品微距",
+              "场景剧情",
+              "多尺寸导出"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "type": "主图视频 15–30s",
+            "ai": "200–800 元",
+            "traditional": "1,500–4,000 元",
+            "saving": "约 70–80%"
+          },
+          {
+            "type": "信息流 30–60s",
+            "ai": "800–3,000 元",
+            "traditional": "5,000–15,000 元",
+            "saving": "约 70–80%"
+          },
+          {
+            "type": "大促活动片",
+            "ai": "1,000–4,000 元",
+            "traditional": "8,000–20,000 元",
+            "saving": "约 70–80%"
+          }
+        ]
+      },
+      "references": [
+        {
+          "title": "花西子抖音爆款素材",
+          "type": "国风美妆",
+          "why": "东方美学+产品特写结合",
+          "platform": "抖音",
+          "year": "2024"
+        },
+        {
+          "title": "完美日记早期投流片",
+          "type": "平价美妆",
+          "why": "高频测试、快速迭代素材逻辑",
+          "platform": "小红书+抖音",
+          "year": "2020"
+        },
+        {
+          "title": "Apple 官网产品短片",
+          "type": "3C 质感",
+          "why": "白底产品旋转与功能点字幕",
+          "year": "持续"
+        },
+        {
+          "title": "李佳琦直播间切片风格",
+          "type": "直播切片",
+          "why": "强节奏口播+产品特写",
+          "platform": "淘宝直播",
+          "year": "2025"
+        },
+        {
+          "title": "拼多多百亿补贴广告",
+          "type": "促销转化",
+          "why": "价格锚点与紧迫感字幕",
+          "platform": "全网",
+          "year": "2025"
+        }
+      ],
+      "toolStack": [
+        {
+          "category": "快速量产",
+          "tools": [
+            "剪映 AI",
+            "CapCut",
+            "万兴喵影"
+          ],
+          "purpose": "模板化批量"
+        },
+        {
+          "category": "产品动态",
+          "tools": [
+            "Kling",
+            "Pika",
+            "MJ 产品图"
+          ],
+          "purpose": "产品展示、场景"
+        },
+        {
+          "category": "数字人口播",
+          "tools": [
+            "蝉镜",
+            "硅基",
+            "HeyGen"
+          ],
+          "purpose": "带货口播、多语言"
+        },
+        {
+          "category": "投流",
+          "tools": [
+            "巨量千川",
+            "磁力金牛",
+            "本网站 Skill"
+          ],
+          "purpose": "素材测试、ROI"
+        }
+      ],
+      "hasSubCategories": true
+    }
+  ]
+}

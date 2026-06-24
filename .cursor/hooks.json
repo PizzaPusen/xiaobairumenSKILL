@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "powershell -ExecutionPolicy Bypass -File .cursor/hooks/auto-sync-after-edit.ps1"
+      }
+    ],
+    "afterTabFileEdit": [
+      {
+        "command": "powershell -ExecutionPolicy Bypass -File .cursor/hooks/auto-sync-after-edit.ps1"
+      }
+    ]
+  }
+}
